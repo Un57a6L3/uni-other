@@ -1,0 +1,10 @@
+# Directories
+**/.vscode
+**/out
+
+# Specific files
+
+# Extensions
+*.html
+
+# Filenames
