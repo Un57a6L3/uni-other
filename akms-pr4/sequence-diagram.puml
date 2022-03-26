@@ -6,7 +6,7 @@
 !$fsize1 = 14
 !$fsize2 = 13
 
-!theme aws-orange
+!theme superhero-outline
 skinparam BackgroundColor white
 
 skinparam ActorFontColor black
@@ -49,7 +49,7 @@ student <-- listener: Выдача результата записи
 !$fsize1 = 14
 !$fsize2 = 13
 
-!theme aws-orange
+!theme superhero-outline
 skinparam BackgroundColor white
 
 skinparam ActorFontColor black
