@@ -1,0 +1,84 @@
+' Sequence diagram for example model
+@startuml pr4-seq-1
+
+' Visual settings
+!$fname = "bahnschrift"
+!$fsize1 = 14
+!$fsize2 = 13
+
+!theme aws-orange
+skinparam BackgroundColor white
+
+skinparam ActorFontColor black
+skinparam ParticipantFontColor black
+skinparam DatabaseFontColor black
+skinparam ArrowFontColor black
+
+skinparam DefaultFontName $fname
+skinparam ArrowFontName $fname
+
+skinparam ActorFontName $fname
+skinparam ParticipantFontName $fname
+skinparam DatabaseFontName $fname
+
+skinparam ArrowFontSize $fsize2
+
+skinparam ActorFontSize $fsize1
+skinparam ParticipantFontSize $fsize1
+skinparam DatabaseFontSize $fsize1
+
+' Actual diagram
+actor student as "Студент"
+participant listener as "Слушатель"
+database course as "Курс"
+
+student -> listener: Запрос на запись на семинар
+listener -> course: Запрос списка пройденных семинаров
+listener <-- course: Выдача списка пройденных семинаров
+listener -> listener: Проверка статуса подготовленности
+student <-- listener: Выдача результата записи
+@enduml
+
+' -----------------------------------------------------
+
+' Sequence diagram for variant model
+@startuml pr4-seq-2
+
+' Visual settings
+!$fname = "bahnschrift"
+!$fsize1 = 14
+!$fsize2 = 13
+
+!theme aws-orange
+skinparam BackgroundColor white
+
+skinparam ActorFontColor black
+skinparam ParticipantFontColor black
+skinparam DatabaseFontColor black
+skinparam ArrowFontColor black
+
+skinparam DefaultFontName $fname
+skinparam ArrowFontName $fname
+
+skinparam ActorFontName $fname
+skinparam ParticipantFontName $fname
+skinparam DatabaseFontName $fname
+
+skinparam ArrowFontSize $fsize2
+
+skinparam ActorFontSize $fsize1
+skinparam ParticipantFontSize $fsize1
+skinparam DatabaseFontSize $fsize1
+
+' Actual diagram
+actor client as "Клиент"
+actor manager as "Менеджер"
+participant dealership as "Автосалон"
+database db as "База данных заявок"
+
+client -> dealership: Подача заявки на покупку автомобиля
+dealership -> db: Запись данных в БД
+dealership <-- db: Данные об автомобиле
+dealership -> manager: Запись о прибытии
+manager -> client: Выдача автомобиля
+@enduml

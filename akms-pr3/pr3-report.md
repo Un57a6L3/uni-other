@@ -1,3 +1,44 @@
+<div style="text-align: center">
+<img src="../images/mirea-logo.png" alt="mirea logo" width=80 height=80>
+
+<font size=4>МИНИСТЕРСТВО НАУКИ И ВЫСШЕГО ОБРАЗОВАНИЯ РОССИЙСКОЙ ФЕДЕРАЦИИ</font><br>
+Федеральное государственное бюджетное образовательное учреждение высшего образования<br>
+<b>"МИРЭА - Российский технологический университет"</b><br><br>
+<font size=4><b>РТУ МИРЭА</b></font>
+
+---
+Институт информационных технологий<br>
+Кафедра практической и прикладной информатики
+
+<b>ОТЧЕТ<br>ПО ПРАКТИЧЕСКОЙ РАБОТЕ № 3</b>
+<br><br>
+<b>по дисциплине</b><br>
+«Анализ и концептуальное моделирование систем»
+<br><br>
+
+Выполнил студент группы ИКБО-02-20
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Антонов А.Д.
+
+Принял cтарший преподаватель
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Ахмедова Х.Г.
+
+<br>
+
+Практическая работа выполнена
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+«__» _______ 2022 г.
+
+«Зачтено»
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+«__» _______ 2022 г.
+
+<br>Москва 2022</div>
+
+---
+<div style="page-break-after: always;"></div>
+
 # Практическая работа №3.
 **Построение UML – модели системы. Диаграмма классов анализа.**
 
@@ -22,7 +63,7 @@
 ## Ход работы:
 Построить диаграмму классов анализа рассматриваемой системы с учетом индивидуального варианта (Рис. 1):
 
-![diagram](../images/PR3.svg)
+![diagram](../images/pr3-class-diagram.svg)
 
 > Рис. 1 - Построенная диаграмма классов.
 
@@ -31,6 +72,8 @@
 
 ## Вывод:
 В результате данной практической работы были изучены элементы структуры иерархии классов диаграммы UML. Было выполнено задание в соответствии с индивидуальным вариантом.
+
+<div style="page-break-after: always;"></div>
 
 ## Приложение:
 Диаграмма и этот вариант отчета сгенерированы с помощью кода.
