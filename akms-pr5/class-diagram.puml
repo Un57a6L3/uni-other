@@ -1,0 +1,106 @@
+@startuml pr5-class-diagram
+!theme reddress-lightorange
+skinparam BackgroundColor white
+
+skinparam DefaultFontName "bahnschrift"
+skinparam ClassFontName "bahnschrift"
+
+skinparam DefaultFontSize 13
+skinparam ClassFontSize 14
+
+skinparam ArrowFontStyle bold
+
+class Goods {
+    id: int
+    name: string
+    price: int
+    quantity: int
+
+    string Name() {get; set;}
+    int Price() {get; set;}
+    int Quantity() {get; set;}
+}
+
+class Order {
+    id: int
+    buyer: Buyer
+    goods: Goods[]
+    price: int
+    paid: bool
+
+    Buyer Buyer() {get; set;}
+    Goods[] Goods() {get; set;}
+
+    void ApplyDiscount()
+    void Pay()
+}
+
+class Buyer {
+    id: int
+    money: int
+    order: Order
+
+    void CreateOrder()
+    bool PayOrder()
+}
+
+class Cashier {
+    currentOrder: Order
+    currentBuyer: Buyer
+
+    Buyer Buyer() {get; set;}
+
+    void CreateOrder()
+    void EditOrder()
+    bool PayOrder()
+}
+
+class Employee {
+    id: int
+    job: string
+
+    string Job() {get; set;}
+}
+
+class Merchandiser {
+    void UpdateOrderInfo()
+    bool OrderGoods()
+    bool UnloadGoods()
+}
+
+class Supplier {
+    goods: Goods[]
+
+    void SupplyGoods()
+    bool ManufactureGoods()
+}
+
+class Database {
+    goods: Goods[]
+    orders: Order[]
+    employees: Employee[]
+
+    Order Orders(id) {get; set;}
+    Goods Goods(id) {get; set;}
+    Employee Employees(id) {get; set;}
+
+    bool AddOrder()
+    bool RemoveOrder()
+    bool AddGoods()
+    bool RemoveGoods()
+    bool AddEmployee()
+    bool RemoveEmployee()
+}
+
+left to right direction
+Order "1" --> "n" Goods
+Database "1" --> "n" Order
+Database "1" -left-> "n" Goods
+Cashier "n" --> "1" Database
+Cashier "1" --> "n" Order
+Buyer "1" --> "n" Cashier
+Employee "1" *-- "1" Cashier
+Employee "1" *-- "1" Merchandiser
+Merchandiser "1" --> "n" Supplier
+Merchandiser "n" --> "1" Database
+@enduml
