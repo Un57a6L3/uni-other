@@ -1,0 +1,68 @@
+@startuml pr6-state-diagram
+!theme superhero-outline
+
+skinparam BackgroundColor white
+
+!$font = "Bahnschrift, Helvetica"
+skinparam DefaultFontName $font
+skinparam StateFontName $font
+skinparam ArrowFontName $font
+skinparam DefaultFontColor black
+
+hide empty description
+
+state start1 <<start>>
+state start2 <<start>>
+state end1   <<end>>
+state end2   <<end>>
+
+state FindGoods as "Поиск товаров"
+FindGoods: Клиент ищет нужные товары,
+FindGoods: принимает решение о покупке 
+
+state CreateOrder as "Создание заказа"
+CreateOrder: Добавление товаров в заказ,
+CreateOrder: применение скидок
+
+state Purchase as "Оплата покупки"
+Purchase: Выбор способа оплаты,
+Purchase: получение данных,
+Purchase: передача состояния оплаты
+
+state SaveToDB as "Сохранение данных в БД"
+SaveToDB: Получение информации о покупке,
+SaveToDB: изменение данных о наличии,
+SaveToDB: запись статистики
+
+state CheckChanges as "Проверка БД мерчандайзером"
+CheckChanges: Получение информации о товарах,
+CheckChanges: проверка на наличие изменений
+
+state ChangeTags as "Смена ценников"
+ChangeTags: Получение информации о ценах,
+ChangeTags: печать и замена ценников
+
+state OrderGoods as "Заказ товаров у поставщика"
+OrderGoods: Определение списка товаров,
+OrderGoods: оформление заказа
+
+state StoreGoods as "Перенос товаров на склад"
+StoreGoods: Получение информации о поставке,
+StoreGoods: прием поставки, перенос товаров
+
+start1 --> FindGoods
+FindGoods --> end1: Нет нужных товаров
+FindGoods --> CreateOrder: Есть нужные товары
+CreateOrder --> Purchase
+Purchase --> end1: Оплата не совершена
+Purchase --> SaveToDB: Оплата совершена
+SaveToDB --> end1
+
+start2 --> CheckChanges
+CheckChanges --> end2: Изменений нет
+CheckChanges --> ChangeTags: Изменения цен
+CheckChanges --> OrderGoods: Нехватка товаров
+OrderGoods --> end2: Товары не пришли
+OrderGoods --> StoreGoods: Товары пришли
+StoreGoods --> end2
+@enduml

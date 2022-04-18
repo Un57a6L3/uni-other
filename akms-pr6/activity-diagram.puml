@@ -1,0 +1,52 @@
+@startuml pr6-activity-diagram
+!theme superhero-outline
+
+skinparam BackgroundColor white
+
+!$font = "Bahnschrift, Helvetica"
+skinparam DefaultFontName $font
+skinparam StateFontName $font
+skinparam ArrowFontName $font
+skinparam DefaultFontColor black
+
+start
+group Покупатель
+:Поиск товаров;
+if () then (Есть нужные товары)
+:Создание заказа;
+else (Нет нужных товаров)
+stop
+endif
+end group
+
+group Кассир
+:Оплата покупки;
+if () then (Оплата совершена)
+:Сохранение данных в БД;
+else (Оплата не совершена)
+stop
+endif
+end group
+
+group Мерчандайзер
+:Проверка БД мерчандайзером;
+if () then (Нехватка товаров)
+:Заказ товаров у поставщика;
+elseif () then (Изменения цен)
+:Смена ценников;
+stop
+else (Изменений нет)
+stop
+endif
+end group
+
+group Поставщик
+:Поставка товаров;
+if () then (Товары пришли)
+:Перенос товаров на склад;
+else (Товары не пришли)
+stop
+endif
+stop
+end group
+@enduml

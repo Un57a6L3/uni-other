@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="814.5833px" preserveAspectRatio="none" style="width:1089px;height:814px;background:#FFFFFF;" version="1.1" viewBox="0 0 1089 814" width="1089.5833px" zoomAndPan="magnify"><defs/><g><ellipse cx="132.2917" cy="27.0833" fill="#E58748" rx="10.4167" ry="10.4167" style="stroke:none;stroke-width:1.0416666666666667;"/><ellipse cx="679.1667" cy="27.0833" fill="#E58748" rx="10.4167" ry="10.4167" style="stroke:none;stroke-width:1.0416666666666667;"/><ellipse cx="114.5833" cy="792.7083" fill="none" rx="10.4167" ry="10.4167" style="stroke:#5BC0DE;stroke-width:1.0416666666666667;"/><ellipse cx="115.1042" cy="793.2292" fill="#5BC0DE" rx="6.25" ry="6.25" style="stroke:none;stroke-width:1.0416666666666667;"/><ellipse cx="643.75" cy="671.3542" fill="none" rx="10.4167" ry="10.4167" style="stroke:#5BC0DE;stroke-width:1.0416666666666667;"/><ellipse cx="644.2708" cy="671.875" fill="#5BC0DE" rx="6.25" ry="6.25" style="stroke:none;stroke-width:1.0416666666666667;"/><g id="FindGoods"><rect height="81.6813" rx="4.1667" ry="4.1667" style="stroke:#E58748;stroke-width:1.0416666666666667;fill:none;" width="229.1667" x="17.7083" y="101.0417"/><line style="stroke:#E58748;stroke-width:1.0416666666666667;fill:none;" x1="17.7083" x2="246.875" y1="135.2132" y2="135.2132"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="11.4583" lengthAdjust="spacing" textLength="91.6667" x="86.4583" y="122.0942">Поиск товаров</text><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="11.4583" lengthAdjust="spacing" textLength="190.625" x="28.125" y="156.2658">Клиент ищет нужные товары,</text><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="11.4583" lengthAdjust="spacing" textLength="197.9167" x="28.125" y="169.604">принимает решение о покупке</text></g><g id="CreateOrder"><rect height="81.6813" rx="4.1667" ry="4.1667" style="stroke:#E58748;stroke-width:1.0416666666666667;fill:none;" width="216.6667" x="170.8333" y="270.8333"/><line style="stroke:#E58748;stroke-width:1.0416666666666667;fill:none;" x1="170.8333" x2="387.5" y1="305.0049" y2="305.0049"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="11.4583" lengthAdjust="spacing" textLength="107.2917" x="225.5208" y="291.8859">Создание заказа</text><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="11.4583" lengthAdjust="spacing" textLength="185.4167" x="181.25" y="326.0574">Добавление товаров в заказ,</text><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="11.4583" lengthAdjust="spacing" textLength="126.0417" x="181.25" y="339.3957">применение скидок</text></g><g id="Purchase"><rect height="95.0195" rx="4.1667" ry="4.1667" style="stroke:#E58748;stroke-width:1.0416666666666667;fill:none;" width="211.4583" x="211.9792" y="440.625"/><line style="stroke:#E58748;stroke-width:1.0416666666666667;fill:none;" x1="211.9792" x2="423.4375" y1="474.7965" y2="474.7965"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="11.4583" lengthAdjust="spacing" textLength="101.0417" x="267.1875" y="461.6776">Оплата покупки</text><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="11.4583" lengthAdjust="spacing" textLength="145.8333" x="222.3958" y="495.8491">Выбор способа оплаты,</text><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="11.4583" lengthAdjust="spacing" textLength="122.9167" x="222.3958" y="509.1873">получение данных,</text><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="11.4583" lengthAdjust="spacing" textLength="180.2083" x="222.3958" y="522.5255">передача состояния оплаты</text></g><g id="SaveToDB"><rect height="95.0195" rx="4.1667" ry="4.1667" style="stroke:#E58748;stroke-width:1.0416666666666667;fill:none;" width="253.125" x="311.9792" y="623.9583"/><line style="stroke:#E58748;stroke-width:1.0416666666666667;fill:none;" x1="311.9792" x2="565.1042" y1="658.1299" y2="658.1299"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="11.4583" lengthAdjust="spacing" textLength="161.4583" x="357.8125" y="645.0109">Сохранение данных в БД</text><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="11.4583" lengthAdjust="spacing" textLength="221.875" x="322.3958" y="679.1824">Получение информации о покупке,</text><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="11.4583" lengthAdjust="spacing" textLength="190.625" x="322.3958" y="692.5207">изменение данных о наличии,</text><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="11.4583" lengthAdjust="spacing" textLength="116.6667" x="322.3958" y="705.8589">запись статистики</text></g><g id="CheckChanges"><rect height="81.6813" rx="4.1667" ry="4.1667" style="stroke:#E58748;stroke-width:1.0416666666666667;fill:none;" width="252.0833" x="553.125" y="101.0417"/><line style="stroke:#E58748;stroke-width:1.0416666666666667;fill:none;" x1="553.125" x2="805.2083" y1="135.2132" y2="135.2132"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="11.4583" lengthAdjust="spacing" textLength="193.75" x="582.2917" y="122.0942">Проверка БД мерчандайзером</text><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="11.4583" lengthAdjust="spacing" textLength="220.8333" x="563.5417" y="156.2658">Получение информации о товарах,</text><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="11.4583" lengthAdjust="spacing" textLength="206.25" x="563.5417" y="169.604">проверка на наличие изменений</text></g><g id="ChangeTags"><rect height="81.6813" rx="4.1667" ry="4.1667" style="stroke:#E58748;stroke-width:1.0416666666666667;fill:none;" width="238.5417" x="559.8958" y="270.8333"/><line style="stroke:#E58748;stroke-width:1.0416666666666667;fill:none;" x1="559.8958" x2="798.4375" y1="305.0049" y2="305.0049"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="11.4583" lengthAdjust="spacing" textLength="103.125" x="627.6042" y="291.8859">Смена ценников</text><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="11.4583" lengthAdjust="spacing" textLength="207.2917" x="570.3125" y="326.0574">Получение информации о ценах,</text><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="11.4583" lengthAdjust="spacing" textLength="168.75" x="570.3125" y="339.3957">печать и замена ценников</text></g><g id="OrderGoods"><rect height="81.6813" rx="4.1667" ry="4.1667" style="stroke:#E58748;stroke-width:1.0416666666666667;fill:none;" width="223.9583" x="834.8958" y="270.8333"/><line style="stroke:#E58748;stroke-width:1.0416666666666667;fill:none;" x1="834.8958" x2="1058.8542" y1="305.0049" y2="305.0049"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="11.4583" lengthAdjust="spacing" textLength="181.25" x="856.25" y="291.8859">Заказ товаров у поставщика</text><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="11.4583" lengthAdjust="spacing" textLength="192.7083" x="845.3125" y="326.0574">Определение списка товаров,</text><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="11.4583" lengthAdjust="spacing" textLength="126.0417" x="845.3125" y="339.3957">оформление заказа</text></g><g id="StoreGoods"><rect height="81.6813" rx="4.1667" ry="4.1667" style="stroke:#E58748;stroke-width:1.0416666666666667;fill:none;" width="259.375" x="818.2292" y="447.3958"/><line style="stroke:#E58748;stroke-width:1.0416666666666667;fill:none;" x1="818.2292" x2="1077.6042" y1="481.5674" y2="481.5674"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="11.4583" lengthAdjust="spacing" textLength="168.75" x="863.5417" y="468.4484">Перенос товаров на склад</text><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="11.4583" lengthAdjust="spacing" textLength="228.125" x="828.6458" y="502.6199">Получение информации о поставке,</text><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="11.4583" lengthAdjust="spacing" textLength="214.5833" x="828.6458" y="515.9582">прием поставки, перенос товаров</text></g><!--MD5=[2510ab10f182e4ed96e4121fa7c86b12]
+link start1 to FindGoods--><g id="link_start1_FindGoods"><path d="M132.2917,37.7167 C132.2917,50.551 132.2917,74.1771 132.2917,95.5573 " fill="none" id="start1-to-FindGoods" style="stroke:#DF691A;stroke-width:3.125;"/><polygon fill="#DF691A" points="132.2917,100.9375,136.4583,91.5625,132.2917,95.7292,128.125,91.5625,132.2917,100.9375" style="stroke:#DF691A;stroke-width:3.125;"/></g><!--MD5=[945a9ced8546a0fdaecbf5bd4d73c765]
+link FindGoods to end1--><g id="link_FindGoods_end1"><path d="M87.4891,182.5063 C57.2836,213.8792 22.9167,260.5344 22.9167,310.4167 C22.9167,310.4167 22.9167,310.4167 22.9167,672.3958 C22.9167,723.5339 76.5472,766.2224 101.7651,783.4684 " fill="none" id="FindGoods-to-end1" style="stroke:#DF691A;stroke-width:3.125;"/><polygon fill="#DF691A" points="106.1239,786.3889,100.6547,777.709,101.797,783.4898,96.0162,784.632,106.1239,786.3889" style="stroke:#DF691A;stroke-width:3.125;"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="12.5" lengthAdjust="spacing" textLength="139.5833" x="29.1667" y="492.8528">Нет нужных товаров</text></g><!--MD5=[16eaed0d668aa9a3fac3fe42d3f7644c]
+link FindGoods to CreateOrder--><g id="link_FindGoods_CreateOrder"><path d="M167.099,182.4531 C189.2427,207.7375 217.9365,240.5021 240.7469,266.5469 " fill="none" id="FindGoods-to-CreateOrder" style="stroke:#DF691A;stroke-width:3.125;"/><polygon fill="#DF691A" points="244.3552,270.6667,241.313,260.8689,240.9237,266.7486,235.044,266.3593,244.3552,270.6667" style="stroke:#DF691A;stroke-width:3.125;"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="12.5" lengthAdjust="spacing" textLength="138.5417" x="220.8333" y="231.3944">Есть нужные товары</text></g><!--MD5=[ea0dc397e146dd1d3d551d8d12b0f8c2]
+link CreateOrder to Purchase--><g id="link_CreateOrder_Purchase"><path d="M287.9125,352.0917 C293.3469,376.6938 300.3917,408.5885 306.2677,435.1865 " fill="none" id="CreateOrder-to-Purchase" style="stroke:#DF691A;stroke-width:3.125;"/><polygon fill="#DF691A" points="307.426,440.4313,309.4719,430.3781,306.3023,435.3456,301.3348,432.176,307.426,440.4313" style="stroke:#DF691A;stroke-width:3.125;"/></g><!--MD5=[af1f0b3e1df72390a904a91994cf51bc]
+link Purchase to end1--><g id="link_Purchase_end1"><path d="M224.6635,535.6448 C190.3146,557.651 154.6125,587.2406 133.3333,623.9583 C104.4293,673.8323 108.8792,746.108 112.487,776.8906 " fill="none" id="Purchase-to-end1" style="stroke:#DF691A;stroke-width:3.125;"/><polygon fill="#DF691A" points="113.1426,782.1407,116.1152,772.3216,112.4971,776.9726,107.8461,773.3544,113.1426,782.1407" style="stroke:#DF691A;stroke-width:3.125;"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="12.5" lengthAdjust="spacing" textLength="147.9167" x="139.5833" y="676.1861">Оплата не совершена</text></g><!--MD5=[514ae7595ed5eee6742f3d158aee2d8d]
+link Purchase to SaveToDB--><g id="link_Purchase_SaveToDB"><path d="M319.4292,535.524 C321.8812,554.3958 327.024,575.7094 337.5,592.7083 C343.5833,602.5792 351.4115,611.6625 360.0156,619.8656 " fill="none" id="Purchase-to-SaveToDB" style="stroke:#DF691A;stroke-width:3.125;"/><polygon fill="#DF691A" points="364.2979,623.8208,360.2388,614.3988,360.4721,620.2867,354.5842,620.52,364.2979,623.8208" style="stroke:#DF691A;stroke-width:3.125;"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="12.5" lengthAdjust="spacing" textLength="127.0833" x="343.75" y="584.5194">Оплата совершена</text></g><!--MD5=[7e1c4db4b16f6951c670b31ac45be163]
+link SaveToDB to end1--><g id="link_SaveToDB_end1"><path d="M312.3635,718.8506 C241.8271,744.8199 161.7552,774.2995 129.3521,786.2292 " fill="none" id="SaveToDB-to-end1" style="stroke:#DF691A;stroke-width:3.125;"/><polygon fill="#DF691A" points="124.2188,788.1194,134.456,788.7911,129.1065,786.3202,131.5773,780.9708,124.2188,788.1194" style="stroke:#DF691A;stroke-width:3.125;"/></g><!--MD5=[39560e14a35d1cb6973a7e05ce68d390]
+link start2 to CheckChanges--><g id="link_start2_CheckChanges"><path d="M679.1667,37.7167 C679.1667,50.551 679.1667,74.1771 679.1667,95.5573 " fill="none" id="start2-to-CheckChanges" style="stroke:#DF691A;stroke-width:3.125;"/><polygon fill="#DF691A" points="679.1667,100.9375,683.3333,91.5625,679.1667,95.7292,675,91.5625,679.1667,100.9375" style="stroke:#DF691A;stroke-width:3.125;"/></g><!--MD5=[685a8911a838dc87615385e92a190c6e]
+link CheckChanges to end2--><g id="link_CheckChanges_end2"><path d="M617.2042,182.3698 C588.475,204.5323 557.2865,234.9292 541.6667,270.8333 C478.5938,415.8167 600.351,607.9958 634.95,658.0031 " fill="none" id="CheckChanges-to-end2" style="stroke:#DF691A;stroke-width:3.125;"/><polygon fill="#DF691A" points="638.0167,662.3927,636.0641,652.321,635.0342,658.1229,629.2323,657.093,638.0167,662.3927" style="stroke:#DF691A;stroke-width:3.125;"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="12.5" lengthAdjust="spacing" textLength="103.125" x="533.3333" y="401.1861">Изменений нет</text></g><!--MD5=[b4f27076551e8ff9605b84d09e8062aa]
+link CheckChanges to ChangeTags--><g id="link_CheckChanges_ChangeTags"><path d="M679.1667,182.4531 C679.1667,207.3208 679.1667,239.425 679.1667,265.2552 " fill="none" id="CheckChanges-to-ChangeTags" style="stroke:#DF691A;stroke-width:3.125;"/><polygon fill="#DF691A" points="679.1667,270.6667,683.3333,261.2917,679.1667,265.4583,675,261.2917,679.1667,270.6667" style="stroke:#DF691A;stroke-width:3.125;"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="12.5" lengthAdjust="spacing" textLength="104.1667" x="685.4167" y="231.3944">Изменения цен</text></g><!--MD5=[4981c54f9f12cbb40d282de7ee495ee9]
+link CheckChanges to OrderGoods--><g id="link_CheckChanges_OrderGoods"><path d="M751.4698,182.3667 C768.8865,192.2792 787.3229,203.076 804.1667,213.5417 C831.5771,230.5729 861.199,250.4323 886.3135,267.7198 " fill="none" id="CheckChanges-to-OrderGoods" style="stroke:#DF691A;stroke-width:3.125;"/><polygon fill="#DF691A" points="890.625,270.6938,885.2731,261.9411,886.3375,267.7367,880.5419,268.8011,890.625,270.6938" style="stroke:#DF691A;stroke-width:3.125;"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="12.5" lengthAdjust="spacing" textLength="119.7917" x="850" y="231.3944">Нехватка товаров</text></g><!--MD5=[b8e0a577a39e2d102ca3f7de9845896d]
+link OrderGoods to end2--><g id="link_OrderGoods_end2"><path d="M834.6656,349.751 C764.701,375.376 684.0021,410.151 662.5,440.625 C614.7927,508.2385 631.9344,616.525 640.2792,655.6292 " fill="none" id="OrderGoods-to-end2" style="stroke:#DF691A;stroke-width:3.125;"/><polygon fill="#DF691A" points="641.4375,660.8833,643.4896,650.8314,640.317,655.797,635.3514,652.6243,641.4375,660.8833" style="stroke:#DF691A;stroke-width:3.125;"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="12.5" lengthAdjust="spacing" textLength="125" x="668.75" y="492.8528">Товары не пришли</text></g><!--MD5=[480a6fe75f5d69bd6c0259317bce5717]
+link OrderGoods to StoreGoods--><g id="link_OrderGoods_StoreGoods"><path d="M947.1115,352.0917 C947.2708,378.7677 947.4813,414.0167 947.6469,441.7917 " fill="none" id="OrderGoods-to-StoreGoods" style="stroke:#DF691A;stroke-width:3.125;"/><polygon fill="#DF691A" points="947.6792,447.2427,951.7895,437.8429,947.6479,442.0345,943.4563,437.8929,947.6792,447.2427" style="stroke:#DF691A;stroke-width:3.125;"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="12.5" lengthAdjust="spacing" textLength="104.1667" x="953.125" y="401.1861">Товары пришли</text></g><!--MD5=[f828570b2fbe6c442a2dbfeb56449d49]
+link StoreGoods to end2--><g id="link_StoreGoods_end2"><path d="M881.1656,528.8385 C807.8615,572.5198 695.451,639.5042 657.1021,662.3563 " fill="none" id="StoreGoods-to-end2" style="stroke:#DF691A;stroke-width:3.125;"/><polygon fill="#DF691A" points="652.3948,665.1615,662.5812,663.9414,656.8689,662.4952,658.3151,656.7828,652.3948,665.1615" style="stroke:#DF691A;stroke-width:3.125;"/></g><!--MD5=[69846ea9d5a09e32dd024d43e1c35ecd]
+@startuml
+!theme superhero-outline
+skinparam BackgroundColor white
+
+!$font = "Bahnschrift, Helvetica"
+skinparam DefaultFontName $font
+skinparam StateFontName $font
+skinparam ArrowFontName $font
+skinparam DefaultFontColor black
+
+hide empty description
+
+state start1 <<start>>
+state start2 <<start>>
+state end1   <<end>>
+state end2   <<end>>
+
+state FindGoods as "Поиск товаров"
+FindGoods: Клиент ищет нужные товары,
+FindGoods: принимает решение о покупке 
+
+state CreateOrder as "Создание заказа"
+CreateOrder: Добавление товаров в заказ,
+CreateOrder: применение скидок
+
+state Purchase as "Оплата покупки"
+Purchase: Выбор способа оплаты,
+Purchase: получение данных,
+Purchase: передача состояния оплаты
+
+state SaveToDB as "Сохранение данных в БД"
+SaveToDB: Получение информации о покупке,
+SaveToDB: изменение данных о наличии,
+SaveToDB: запись статистики
+
+state CheckChanges as "Проверка БД мерчандайзером"
+CheckChanges: Получение информации о товарах,
+CheckChanges: проверка на наличие изменений
+
+state ChangeTags as "Смена ценников"
+ChangeTags: Получение информации о ценах,
+ChangeTags: печать и замена ценников
+
+state OrderGoods as "Заказ товаров у поставщика"
+OrderGoods: Определение списка товаров,
+OrderGoods: оформление заказа
+
+state StoreGoods as "Перенос товаров на склад"
+StoreGoods: Получение информации о поставке,
+StoreGoods: прием поставки, перенос товаров
+
+start1 - -> FindGoods
+FindGoods - -> end1: Нет нужных товаров
+FindGoods - -> CreateOrder: Есть нужные товары
+CreateOrder - -> Purchase
+Purchase - -> end1: Оплата не совершена
+Purchase - -> SaveToDB: Оплата совершена
+SaveToDB - -> end1
+
+start2 - -> CheckChanges
+CheckChanges - -> end2: Изменений нет
+CheckChanges - -> ChangeTags: Изменения цен
+CheckChanges - -> OrderGoods: Нехватка товаров
+OrderGoods - -> end2: Товары не пришли
+OrderGoods - -> StoreGoods: Товары пришли
+StoreGoods - -> end2
+@enduml
+
+@startuml
+
+
+
+skinparam backgroundColor transparent
+skinparam useBetaStyle false
+
+
+
+
+
+
+<style>
+  root {
+    BackgroundColor transparent
+    FontColor #DF691A
+    HyperLinkColor #f0ad4e
+    LineColor #e58748
+    LineThickness 1
+    Margin 10
+    Padding 6
+    Shadowing 0.0
+  }
+  node {
+   Padding 15
+   roundcorner 20
+   BackgroundColor transparent
+  }
+  caption {
+    LineThickness 0
+  }
+  footer {
+    LineThickness 0
+  }
+  groupHeader {
+    BackgroundColor #4E5D6C
+    FontColor #5bc0de
+    FontStyle bold
+  }
+  header {
+    LineThickness 0
+  }
+  referenceHeader {
+    BackgroundColor transparent
+    FontColor #4E5D6C
+    FontStyle bold
+  }
+  separator {
+    BackgroundColor #FFF
+    FontColor transparent
+    FontStyle bold
+  }
+  title {
+	FontSize 20
+	BorderRoundCorner            8
+	BorderThickness 	         1
+	BackgroundColor  transparent
+	FontColor #DF691A
+	BorderColor #4E5D6C
+  }
+  nwdiagDiagram {
+	network {
+			FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent    
+		LineColor #DF691A
+		LineThickness 1.0
+		FontColor #b25415
+	}
+	server {
+			FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+	}
+	arrow {
+		FontColor #b25415
+		LineColor #b25415
+	}
+	group {
+		BackGroundColor #abb6c2
+		LineColor #bcc5ce
+		LineThickness 2.0
+		Margin 5
+		Padding 5
+	}
+  }
+  ganttDiagram {
+	task {
+			FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+		LineColor #DF691A
+		Margin 10
+		Padding 6
+	}
+	note {
+		FontColor #5bc0de
+		LineColor #7ccde5
+		BackGroundColor transparent
+	}
+	separator {
+		LineColor #717d89
+		BackGroundColor transparent
+		FontColor #717d89
+	}
+	milestone {
+		FontColor #5bc0de
+		FontSize 16
+		FontStyle italic
+		BackGroundColor #4E5D6C
+		LineColor #717d89
+	}
+	timeline {
+		BackgroundColor #4E5D6C
+		FontColor #717d89
+	}
+	closed {
+		BackgroundColor #f3bd71
+		FontColor #f0ad4e
+	}
+  }
+</style>
+skinparam defaultFontName       "Verdana"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           8
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               5
+skinparam TitleFontColor	    #4E5D6C
+skinparam TitleFontSize	    	20
+skinparam TitleBorderThickness 	0
+skinparam ArrowColor            #4E5D6C
+skinparam stereotype {
+    CBackgroundColor #717d89
+    CBorderColor #3e4a56
+    ABackgroundColor #5F8F00
+    ABorderColor #4a934a
+    IBackgroundColor #AE423F
+    IBorderColor #e17572
+    EBackgroundColor #C08A3E
+    EBorderColor #f3bd71
+    NBackgroundColor #499AB2
+    NBorderColor #7ccde5
+}
+skinparam title {
+	FontColor	                 #DF691A
+	BorderColor	                 #717d89
+	FontSize	    	         20
+	BorderRoundCorner            8
+	BorderThickness 	         1
+	BackgroundColor              transparent
+}
+
+
+skinparam legend {
+	BackgroundColor transparent
+	BorderColor #717d89
+	FontColor #abb6c2
+}
+
+skinparam swimlane {
+	BorderColor #5bc0de
+	BorderThickness 2
+	TitleBackgroundColor  #3e4a56-#4E5D6C
+	TitleFontColor #DF691A
+}
+
+
+skinparam activity {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+	BarColor #5cb85c
+	StartColor #5bc0de
+	EndColor #5bc0de
+	DiamondBackgroundColor transparent
+  	DiamondBorderColor #717d89
+  	DiamondFontColor #717d89
+}
+
+
+skinparam participant {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+	FontColor #DF691A
+}
+
+
+skinparam arrow {
+	Thickness 3
+	Color #DF691A
+	FontColor #FFF
+}
+
+
+skinparam sequence {
+	BorderColor #DF691A
+	TitleFontColor #DF691A
+	BackgroundColor transparent
+	StartColor #DF691A
+	EndColor #DF691A
+	BoxBackgroundColor transparent
+	BoxBorderColor #4E5D6C
+	BoxFontColor #4E5D6C
+	DelayFontColor #4E5D6C
+	LifeLineBorderColor #4E5D6C
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor transparent
+	GroupBorderColor #4E5D6C
+	GroupFontColor #4E5D6C
+	GroupHeaderFontColor #5bc0de
+	GroupBackgroundColor transparent
+	GroupHeaderBackgroundColor transparent
+	DividerBackgroundColor transparent
+    DividerBorderColor #4E5D6C
+    DividerBorderThickness 2
+    DividerFontColor #abb6c2
+	ReferenceBackgroundColor transparent
+	ReferenceBorderColor #abb6c2
+	ReferenceFontColor #abb6c2
+	ReferenceHeaderFontColor #5bc0de
+	ReferenceHeaderBackgroundColor transparent
+	StereotypeFontColor #DF691A
+}
+
+
+skinparam partition {
+	BorderColor #DF691A
+	FontColor #DF691A
+	BackgroundColor transparent
+}
+
+
+skinparam collections {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+}
+
+
+skinparam control {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+}
+
+
+skinparam entity {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+}
+
+
+skinparam boundary {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+}
+
+
+skinparam agent {
+	BackgroundColor transparent
+	BorderColor #C08A3E
+	FontColor #4E5D6C
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor transparent
+	BorderColor #7ccde5
+	FontColor #7ccde5
+}
+
+
+skinparam artifact {
+	BackgroundColor transparent
+	BorderColor #717d89
+	FontColor #abb6c2
+}
+
+
+skinparam component {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+}
+
+
+skinparam interface {
+	BackgroundColor  transparent
+	BorderColor  #d9534f
+	FontColor #4E5D6C
+}
+
+
+skinparam storage {
+	BackgroundColor transparent
+  	BorderColor #f3bd71
+	FontColor #f0ad4e
+}
+
+
+skinparam node {
+	BackgroundColor  transparent
+	BorderColor #abb6c2
+	FontColor #abb6c2
+}
+
+
+skinparam cloud {
+	BackgroundColor transparent
+	BorderColor #F2FCFE
+	FontColor #4E5D6C
+}
+
+
+skinparam database {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+	FontColor #DF691A
+}
+
+
+skinparam class {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+	FontColor #abb6c2
+	HeaderBackgroundColor #b25415
+	StereotypeFontColor #4E5D6C
+	BorderThickness 1
+	AttributeFontColor #4E5D6C
+	AttributeFontSize 11
+}
+
+
+skinparam object {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+	StereotypeFontColor #4E5D6C
+	BorderThickness 1
+	AttributeFontColor #717d89
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+	BorderThickness 2
+	StereotypeFontColor #DF691A
+}
+
+
+skinparam rectangle {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+	BorderThickness 2
+	StereotypeFontColor #DF691A
+}
+
+
+skinparam package {
+	BackgroundColor transparent
+  	BorderColor #DF691A
+	FontColor #DF691A
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor transparent
+  	BorderColor #f0ad4e
+	FontColor #f0ad4e
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor transparent
+  	BorderColor #5bc0de
+	FontColor #5bc0de
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+	StartColor #5bc0de
+	EndColor #5bc0de
+	AttributeFontColor #717d89
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+}
+
+
+skinparam card {
+	BackgroundColor transparent
+	BorderColor #5bc0de
+	FontColor #5bc0de
+}
+
+
+skinparam file {
+	BackgroundColor transparent
+	BorderColor #abb6c2
+	FontColor #abb6c2
+}
+
+
+skinparam stack {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+}
+skinparam BackgroundColor white
+
+skinparam DefaultFontName Bahnschrift, Helvetica
+skinparam StateFontName Bahnschrift, Helvetica
+skinparam ArrowFontName Bahnschrift, Helvetica
+skinparam DefaultFontColor black
+
+hide empty description
+
+state start1 <<start>>
+state start2 <<start>>
+state end1   <<end>>
+state end2   <<end>>
+
+state FindGoods as "Поиск товаров"
+FindGoods: Клиент ищет нужные товары,
+FindGoods: принимает решение о покупке 
+
+state CreateOrder as "Создание заказа"
+CreateOrder: Добавление товаров в заказ,
+CreateOrder: применение скидок
+
+state Purchase as "Оплата покупки"
+Purchase: Выбор способа оплаты,
+Purchase: получение данных,
+Purchase: передача состояния оплаты
+
+state SaveToDB as "Сохранение данных в БД"
+SaveToDB: Получение информации о покупке,
+SaveToDB: изменение данных о наличии,
+SaveToDB: запись статистики
+
+state CheckChanges as "Проверка БД мерчандайзером"
+CheckChanges: Получение информации о товарах,
+CheckChanges: проверка на наличие изменений
+
+state ChangeTags as "Смена ценников"
+ChangeTags: Получение информации о ценах,
+ChangeTags: печать и замена ценников
+
+state OrderGoods as "Заказ товаров у поставщика"
+OrderGoods: Определение списка товаров,
+OrderGoods: оформление заказа
+
+state StoreGoods as "Перенос товаров на склад"
+StoreGoods: Получение информации о поставке,
+StoreGoods: прием поставки, перенос товаров
+
+start1 - -> FindGoods
+FindGoods - -> end1: Нет нужных товаров
+FindGoods - -> CreateOrder: Есть нужные товары
+CreateOrder - -> Purchase
+Purchase - -> end1: Оплата не совершена
+Purchase - -> SaveToDB: Оплата совершена
+SaveToDB - -> end1
+
+start2 - -> CheckChanges
+CheckChanges - -> end2: Изменений нет
+CheckChanges - -> ChangeTags: Изменения цен
+CheckChanges - -> OrderGoods: Нехватка товаров
+OrderGoods - -> end2: Товары не пришли
+OrderGoods - -> StoreGoods: Товары пришли
+StoreGoods - -> end2
+@enduml
+
+PlantUML version 1.2022.4beta2(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

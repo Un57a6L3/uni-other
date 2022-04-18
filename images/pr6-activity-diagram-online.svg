@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="737.9167px" preserveAspectRatio="none" style="width:400px;height:737px;background:#FFFFFF;" version="1.1" viewBox="0 0 400 737" width="400.3125px" zoomAndPan="magnify"><defs/><g><ellipse cx="187.7604" cy="14.5833" fill="#5BC0DE" rx="7.2917" ry="7.2917" style="stroke:#E58748;stroke-width:0.7291666666666666;"/><rect height="147.2119" style="stroke:#DF691A;stroke-width:0.7291666666666666;fill:none;" width="249.375" x="125.4167" y="29.1667"/><path d="M194.6875,29.1667 L194.6875,41.5397 L187.3958,48.8314 L125.4167,48.8314 " fill="none" style="stroke:#DF691A;stroke-width:0.7291666666666666;"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="8.75" lengthAdjust="spacing" textLength="54.6875" x="131.25" y="41.6636">Покупатель</text><rect height="26.2272" rx="2.9167" ry="2.9167" style="stroke:#E58748;stroke-width:0.7291666666666666;fill:none;" width="85.3125" x="145.1042" y="61.2272"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="8.75" lengthAdjust="spacing" textLength="69.2708" x="153.125" y="77.37">Поиск товаров</text><rect height="26.2272" rx="2.9167" ry="2.9167" style="stroke:#E58748;stroke-width:0.7291666666666666;fill:none;" width="95.5208" x="140" y="141.4014"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="8.75" lengthAdjust="spacing" textLength="79.4792" x="148.0208" y="157.5441">Создание заказа</text><polygon points="179.0104,102.0378,196.5104,102.0378,205.2604,110.7878,196.5104,119.5378,179.0104,119.5378,170.2604,110.7878,179.0104,102.0378" style="stroke:#717D89;stroke-width:0.7291666666666666;fill:none;"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="8.75" lengthAdjust="spacing" textLength="96.9792" x="194.3229" y="131.3055">Есть нужные товары</text><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="8.75" lengthAdjust="spacing" textLength="97.7083" x="208.9063" y="105.0783">Нет нужных товаров</text><ellipse cx="326.3021" cy="110.7878" rx="8.0208" ry="8.0208" style="stroke:#E58748;stroke-width:0.7291666666666666;fill:none;"/><ellipse cx="326.3021" cy="110.7878" fill="#E58748" rx="4.375" ry="4.375" style="stroke:#724324;stroke-width:0.7291666666666666;"/><rect height="147.2119" style="stroke:#DF691A;stroke-width:0.7291666666666666;fill:none;" width="286.5625" x="105.7292" y="183.6702"/><path d="M153.125,183.6702 L153.125,196.0433 L145.8333,203.335 L105.7292,203.335 " fill="none" style="stroke:#DF691A;stroke-width:0.7291666666666666;"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="8.75" lengthAdjust="spacing" textLength="32.8125" x="111.5625" y="196.1672">Кассир</text><rect height="26.2272" rx="2.9167" ry="2.9167" style="stroke:#E58748;stroke-width:0.7291666666666666;fill:none;" width="91.1458" x="142.1875" y="215.7308"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="8.75" lengthAdjust="spacing" textLength="75.1042" x="150.2083" y="231.8736">Оплата покупки</text><rect height="26.2272" rx="2.9167" ry="2.9167" style="stroke:#E58748;stroke-width:0.7291666666666666;fill:none;" width="134.8958" x="120.3125" y="295.9049"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="8.75" lengthAdjust="spacing" textLength="118.8542" x="128.3333" y="312.0477">Сохранение данных в БД</text><polygon points="179.0104,256.5413,196.5104,256.5413,205.2604,265.2913,196.5104,274.0413,179.0104,274.0413,170.2604,265.2913,179.0104,256.5413" style="stroke:#717D89;stroke-width:0.7291666666666666;fill:none;"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="8.75" lengthAdjust="spacing" textLength="88.9583" x="194.3229" y="285.8091">Оплата совершена</text><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="8.75" lengthAdjust="spacing" textLength="103.5417" x="208.9063" y="259.5819">Оплата не совершена</text><ellipse cx="332.1354" cy="265.2913" rx="8.0208" ry="8.0208" style="stroke:#E58748;stroke-width:0.7291666666666666;fill:none;"/><ellipse cx="332.1354" cy="265.2913" fill="#E58748" rx="4.375" ry="4.375" style="stroke:#724324;stroke-width:0.7291666666666666;"/><rect height="207.1389" style="stroke:#DF691A;stroke-width:0.7291666666666666;fill:none;" width="358.0208" x="8.0208" y="338.1738"/><path d="M91.875,338.1738 L91.875,350.5469 L84.5833,357.8385 L8.0208,357.8385 " fill="none" style="stroke:#DF691A;stroke-width:0.7291666666666666;"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="8.75" lengthAdjust="spacing" textLength="69.2708" x="13.8542" y="350.6708">Мерчандайзер</text><rect height="26.2272" rx="2.9167" ry="2.9167" style="stroke:#E58748;stroke-width:0.7291666666666666;fill:none;" width="161.1458" x="107.1875" y="370.2344"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="8.75" lengthAdjust="spacing" textLength="145.1042" x="115.2083" y="386.3772">Проверка БД мерчандайзером</text><polygon points="82.0313,411.0449,99.5313,411.0449,108.2813,419.7949,99.5313,428.5449,82.0313,428.5449,73.2813,419.7949,82.0313,411.0449" style="stroke:#717D89;stroke-width:0.7291666666666666;fill:none;"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="8.75" lengthAdjust="spacing" textLength="83.8542" x="97.3438" y="440.3127">Нехватка товаров</text><rect height="26.2272" rx="2.9167" ry="2.9167" style="stroke:#E58748;stroke-width:0.7291666666666666;fill:none;" width="150.9375" x="15.3125" y="455.9898"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="8.75" lengthAdjust="spacing" textLength="134.8958" x="23.3333" y="472.1326">Заказ товаров у поставщика</text><polygon points="234.7917,411.0449,252.2917,411.0449,261.0417,419.7949,252.2917,428.5449,234.7917,428.5449,226.0417,419.7949,234.7917,411.0449" style="stroke:#717D89;stroke-width:0.7291666666666666;fill:none;"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="8.75" lengthAdjust="spacing" textLength="72.9167" x="250.1042" y="440.3127">Изменения цен</text><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="8.75" lengthAdjust="spacing" textLength="72.1875" x="264.6875" y="414.0855">Изменений нет</text><rect height="26.2272" rx="2.9167" ry="2.9167" style="stroke:#E58748;stroke-width:0.7291666666666666;fill:none;" width="94.0625" x="196.5104" y="455.9898"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="8.75" lengthAdjust="spacing" textLength="78.0208" x="204.5313" y="472.1326">Смена ценников</text><ellipse cx="243.5417" cy="513.9585" rx="8.0208" ry="8.0208" style="stroke:#E58748;stroke-width:0.7291666666666666;fill:none;"/><ellipse cx="243.5417" cy="513.9585" fill="#E58748" rx="4.375" ry="4.375" style="stroke:#724324;stroke-width:0.7291666666666666;"/><ellipse cx="349.2708" cy="483.3335" rx="8.0208" ry="8.0208" style="stroke:#E58748;stroke-width:0.7291666666666666;fill:none;"/><ellipse cx="349.2708" cy="483.3335" fill="#E58748" rx="4.375" ry="4.375" style="stroke:#724324;stroke-width:0.7291666666666666;"/><rect height="177.8369" style="stroke:#DF691A;stroke-width:0.7291666666666666;fill:none;" width="281.0938" x="102.4479" y="552.6044"/><path d="M169.5313,552.6044 L169.5313,564.9774 L162.2396,572.2691 L102.4479,572.2691 " fill="none" style="stroke:#DF691A;stroke-width:0.7291666666666666;"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="8.75" lengthAdjust="spacing" textLength="52.5" x="108.2813" y="565.1013">Поставщик</text><rect height="26.2272" rx="2.9167" ry="2.9167" style="stroke:#E58748;stroke-width:0.7291666666666666;fill:none;" width="99.8958" x="137.8125" y="584.6649"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="8.75" lengthAdjust="spacing" textLength="83.8542" x="145.8333" y="600.8077">Поставка товаров</text><rect height="26.2272" rx="2.9167" ry="2.9167" style="stroke:#E58748;stroke-width:0.7291666666666666;fill:none;" width="141.4583" x="117.0313" y="664.8391"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="8.75" lengthAdjust="spacing" textLength="125.4167" x="125.0521" y="680.9819">Перенос товаров на склад</text><polygon points="179.0104,625.4755,196.5104,625.4755,205.2604,634.2255,196.5104,642.9755,179.0104,642.9755,170.2604,634.2255,179.0104,625.4755" style="stroke:#717D89;stroke-width:0.7291666666666666;fill:none;"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="8.75" lengthAdjust="spacing" textLength="72.9167" x="194.3229" y="654.7432">Товары пришли</text><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="8.75" lengthAdjust="spacing" textLength="87.5" x="208.9063" y="628.516">Товары не пришли</text><ellipse cx="316.0938" cy="634.2255" rx="8.0208" ry="8.0208" style="stroke:#E58748;stroke-width:0.7291666666666666;fill:none;"/><ellipse cx="316.0938" cy="634.2255" fill="#E58748" rx="4.375" ry="4.375" style="stroke:#724324;stroke-width:0.7291666666666666;"/><ellipse cx="187.7604" cy="713.6705" rx="8.0208" ry="8.0208" style="stroke:#E58748;stroke-width:0.7291666666666666;fill:none;"/><ellipse cx="187.7604" cy="713.6705" fill="#E58748" rx="4.375" ry="4.375" style="stroke:#724324;stroke-width:0.7291666666666666;"/><line style="stroke:#DF691A;stroke-width:2.1875;" x1="187.7604" x2="187.7604" y1="119.5378" y2="141.4014"/><polygon fill="#DF691A" points="184.8438,134.1097,187.7604,141.4014,190.6771,134.1097,187.7604,137.0264" style="stroke:#DF691A;stroke-width:0.7291666666666666;"/><line style="stroke:#DF691A;stroke-width:2.1875;" x1="205.2604" x2="318.2813" y1="110.7878" y2="110.7878"/><polygon fill="#DF691A" points="310.9896,107.8711,318.2813,110.7878,310.9896,113.7044,313.9063,110.7878" style="stroke:#DF691A;stroke-width:0.7291666666666666;"/><line style="stroke:#DF691A;stroke-width:2.1875;" x1="187.7604" x2="187.7604" y1="167.6286" y2="215.7308"/><polygon fill="#DF691A" points="184.8438,208.4391,187.7604,215.7308,190.6771,208.4391,187.7604,211.3558" style="stroke:#DF691A;stroke-width:0.7291666666666666;"/><line style="stroke:#DF691A;stroke-width:2.1875;" x1="187.7604" x2="187.7604" y1="87.4544" y2="102.0378"/><polygon fill="#DF691A" points="184.8438,94.7461,187.7604,102.0378,190.6771,94.7461,187.7604,97.6628" style="stroke:#DF691A;stroke-width:0.7291666666666666;"/><line style="stroke:#DF691A;stroke-width:2.1875;" x1="187.7604" x2="187.7604" y1="21.875" y2="61.2272"/><polygon fill="#DF691A" points="184.8438,53.9355,187.7604,61.2272,190.6771,53.9355,187.7604,56.8522" style="stroke:#DF691A;stroke-width:0.7291666666666666;"/><line style="stroke:#DF691A;stroke-width:2.1875;" x1="187.7604" x2="187.7604" y1="274.0413" y2="295.9049"/><polygon fill="#DF691A" points="184.8438,288.6133,187.7604,295.9049,190.6771,288.6133,187.7604,291.5299" style="stroke:#DF691A;stroke-width:0.7291666666666666;"/><line style="stroke:#DF691A;stroke-width:2.1875;" x1="205.2604" x2="324.1146" y1="265.2913" y2="265.2913"/><polygon fill="#DF691A" points="316.8229,262.3747,324.1146,265.2913,316.8229,268.208,319.7396,265.2913" style="stroke:#DF691A;stroke-width:0.7291666666666666;"/><line style="stroke:#DF691A;stroke-width:2.1875;" x1="187.7604" x2="187.7604" y1="322.1322" y2="370.2344"/><polygon fill="#DF691A" points="184.8438,362.9427,187.7604,370.2344,190.6771,362.9427,187.7604,365.8594" style="stroke:#DF691A;stroke-width:0.7291666666666666;"/><line style="stroke:#DF691A;stroke-width:2.1875;" x1="187.7604" x2="187.7604" y1="241.958" y2="256.5413"/><polygon fill="#DF691A" points="184.8438,249.2497,187.7604,256.5413,190.6771,249.2497,187.7604,252.1663" style="stroke:#DF691A;stroke-width:0.7291666666666666;"/><line style="stroke:#DF691A;stroke-width:2.1875;" x1="243.5417" x2="243.5417" y1="482.217" y2="505.9377"/><polygon fill="#DF691A" points="240.625,498.646,243.5417,505.9377,246.4583,498.646,243.5417,501.5627" style="stroke:#DF691A;stroke-width:0.7291666666666666;"/><line style="stroke:#DF691A;stroke-width:2.1875;" x1="90.7813" x2="90.7813" y1="428.5449" y2="455.9898"/><polygon fill="#DF691A" points="87.8646,448.6981,90.7813,455.9898,93.6979,448.6981,90.7813,451.6148" style="stroke:#DF691A;stroke-width:0.7291666666666666;"/><line style="stroke:#DF691A;stroke-width:2.1875;" x1="90.7813" x2="90.7813" y1="482.217" y2="536.5627"/><polygon fill="#DF691A" points="87.8646,529.271,90.7813,536.5627,93.6979,529.271,90.7813,532.1877" style="stroke:#DF691A;stroke-width:0.7291666666666666;"/><line style="stroke:#DF691A;stroke-width:2.1875;" x1="243.5417" x2="243.5417" y1="428.5449" y2="455.9898"/><polygon fill="#DF691A" points="240.625,448.6981,243.5417,455.9898,246.4583,448.6981,243.5417,451.6148" style="stroke:#DF691A;stroke-width:0.7291666666666666;"/><line style="stroke:#DF691A;stroke-width:2.1875;" x1="108.2813" x2="226.0417" y1="419.7949" y2="419.7949"/><polygon fill="#DF691A" points="218.75,416.8783,226.0417,419.7949,218.75,422.7116,221.6667,419.7949" style="stroke:#DF691A;stroke-width:0.7291666666666666;"/><line style="stroke:#DF691A;stroke-width:2.1875;" x1="187.7604" x2="187.7604" y1="396.4616" y2="400.1074"/><line style="stroke:#DF691A;stroke-width:2.1875;" x1="187.7604" x2="90.7813" y1="400.1074" y2="400.1074"/><line style="stroke:#DF691A;stroke-width:2.1875;" x1="90.7813" x2="90.7813" y1="400.1074" y2="411.0449"/><polygon fill="#DF691A" points="87.8646,403.7533,90.7813,411.0449,93.6979,403.7533,90.7813,406.6699" style="stroke:#DF691A;stroke-width:0.7291666666666666;"/><line style="stroke:#DF691A;stroke-width:2.1875;" x1="261.0417" x2="349.2708" y1="419.7949" y2="419.7949"/><line style="stroke:#DF691A;stroke-width:2.1875;" x1="349.2708" x2="349.2708" y1="419.7949" y2="475.3127"/><polygon fill="#DF691A" points="346.3542,468.021,349.2708,475.3127,352.1875,468.021,349.2708,470.9377" style="stroke:#DF691A;stroke-width:0.7291666666666666;"/><line style="stroke:#DF691A;stroke-width:2.1875;" x1="90.7813" x2="187.7604" y1="536.5627" y2="536.5627"/><line style="stroke:#DF691A;stroke-width:2.1875;" x1="187.7604" x2="187.7604" y1="642.9755" y2="664.8391"/><polygon fill="#DF691A" points="184.8438,657.5474,187.7604,664.8391,190.6771,657.5474,187.7604,660.4641" style="stroke:#DF691A;stroke-width:0.7291666666666666;"/><line style="stroke:#DF691A;stroke-width:2.1875;" x1="205.2604" x2="308.0729" y1="634.2255" y2="634.2255"/><polygon fill="#DF691A" points="300.7813,631.3088,308.0729,634.2255,300.7813,637.1421,303.6979,634.2255" style="stroke:#DF691A;stroke-width:0.7291666666666666;"/><line style="stroke:#DF691A;stroke-width:2.1875;" x1="187.7604" x2="187.7604" y1="691.0663" y2="705.6496"/><polygon fill="#DF691A" points="184.8438,698.358,187.7604,705.6496,190.6771,698.358,187.7604,701.2746" style="stroke:#DF691A;stroke-width:0.7291666666666666;"/><line style="stroke:#DF691A;stroke-width:2.1875;" x1="187.7604" x2="187.7604" y1="610.8921" y2="625.4755"/><polygon fill="#DF691A" points="184.8438,618.1838,187.7604,625.4755,190.6771,618.1838,187.7604,621.1005" style="stroke:#DF691A;stroke-width:0.7291666666666666;"/><line style="stroke:#DF691A;stroke-width:2.1875;" x1="187.7604" x2="187.7604" y1="536.5627" y2="584.6649"/><polygon fill="#DF691A" points="184.8438,577.3733,187.7604,584.6649,190.6771,577.3733,187.7604,580.2899" style="stroke:#DF691A;stroke-width:0.7291666666666666;"/><!--MD5=[6530e5fa80d01950915acc49174bb4b7]
+@startuml
+!theme superhero-outline
+scale 0.7
+
+skinparam BackgroundColor white
+
+!$font = "Bahnschrift, Helvetica"
+skinparam DefaultFontName $font
+skinparam StateFontName $font
+skinparam ArrowFontName $font
+skinparam DefaultFontColor black
+
+start
+group Покупатель
+:Поиск товаров;
+if () then (Есть нужные товары)
+:Создание заказа;
+else (Нет нужных товаров)
+stop
+endif
+end group
+
+group Кассир
+:Оплата покупки;
+if () then (Оплата совершена)
+:Сохранение данных в БД;
+else (Оплата не совершена)
+stop
+endif
+end group
+
+group Мерчандайзер
+:Проверка БД мерчандайзером;
+if () then (Нехватка товаров)
+:Заказ товаров у поставщика;
+elseif () then (Изменения цен)
+:Смена ценников;
+stop
+else (Изменений нет)
+stop
+endif
+end group
+
+group Поставщик
+:Поставка товаров;
+if () then (Товары пришли)
+:Перенос товаров на склад;
+else (Товары не пришли)
+stop
+endif
+stop
+end group
+@enduml
+
+@startuml
+
+
+
+skinparam backgroundColor transparent
+skinparam useBetaStyle false
+
+
+
+
+
+
+<style>
+  root {
+    BackgroundColor transparent
+    FontColor #DF691A
+    HyperLinkColor #f0ad4e
+    LineColor #e58748
+    LineThickness 1
+    Margin 10
+    Padding 6
+    Shadowing 0.0
+  }
+  node {
+   Padding 15
+   roundcorner 20
+   BackgroundColor transparent
+  }
+  caption {
+    LineThickness 0
+  }
+  footer {
+    LineThickness 0
+  }
+  groupHeader {
+    BackgroundColor #4E5D6C
+    FontColor #5bc0de
+    FontStyle bold
+  }
+  header {
+    LineThickness 0
+  }
+  referenceHeader {
+    BackgroundColor transparent
+    FontColor #4E5D6C
+    FontStyle bold
+  }
+  separator {
+    BackgroundColor #FFF
+    FontColor transparent
+    FontStyle bold
+  }
+  title {
+	FontSize 20
+	BorderRoundCorner            8
+	BorderThickness 	         1
+	BackgroundColor  transparent
+	FontColor #DF691A
+	BorderColor #4E5D6C
+  }
+  nwdiagDiagram {
+	network {
+			FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent    
+		LineColor #DF691A
+		LineThickness 1.0
+		FontColor #b25415
+	}
+	server {
+			FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+	}
+	arrow {
+		FontColor #b25415
+		LineColor #b25415
+	}
+	group {
+		BackGroundColor #abb6c2
+		LineColor #bcc5ce
+		LineThickness 2.0
+		Margin 5
+		Padding 5
+	}
+  }
+  ganttDiagram {
+	task {
+			FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+		LineColor #DF691A
+		Margin 10
+		Padding 6
+	}
+	note {
+		FontColor #5bc0de
+		LineColor #7ccde5
+		BackGroundColor transparent
+	}
+	separator {
+		LineColor #717d89
+		BackGroundColor transparent
+		FontColor #717d89
+	}
+	milestone {
+		FontColor #5bc0de
+		FontSize 16
+		FontStyle italic
+		BackGroundColor #4E5D6C
+		LineColor #717d89
+	}
+	timeline {
+		BackgroundColor #4E5D6C
+		FontColor #717d89
+	}
+	closed {
+		BackgroundColor #f3bd71
+		FontColor #f0ad4e
+	}
+  }
+</style>
+skinparam defaultFontName       "Verdana"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           8
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               5
+skinparam TitleFontColor	    #4E5D6C
+skinparam TitleFontSize	    	20
+skinparam TitleBorderThickness 	0
+skinparam ArrowColor            #4E5D6C
+skinparam stereotype {
+    CBackgroundColor #717d89
+    CBorderColor #3e4a56
+    ABackgroundColor #5F8F00
+    ABorderColor #4a934a
+    IBackgroundColor #AE423F
+    IBorderColor #e17572
+    EBackgroundColor #C08A3E
+    EBorderColor #f3bd71
+    NBackgroundColor #499AB2
+    NBorderColor #7ccde5
+}
+skinparam title {
+	FontColor	                 #DF691A
+	BorderColor	                 #717d89
+	FontSize	    	         20
+	BorderRoundCorner            8
+	BorderThickness 	         1
+	BackgroundColor              transparent
+}
+
+
+skinparam legend {
+	BackgroundColor transparent
+	BorderColor #717d89
+	FontColor #abb6c2
+}
+
+skinparam swimlane {
+	BorderColor #5bc0de
+	BorderThickness 2
+	TitleBackgroundColor  #3e4a56-#4E5D6C
+	TitleFontColor #DF691A
+}
+
+
+skinparam activity {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+	BarColor #5cb85c
+	StartColor #5bc0de
+	EndColor #5bc0de
+	DiamondBackgroundColor transparent
+  	DiamondBorderColor #717d89
+  	DiamondFontColor #717d89
+}
+
+
+skinparam participant {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+	FontColor #DF691A
+}
+
+
+skinparam arrow {
+	Thickness 3
+	Color #DF691A
+	FontColor #FFF
+}
+
+
+skinparam sequence {
+	BorderColor #DF691A
+	TitleFontColor #DF691A
+	BackgroundColor transparent
+	StartColor #DF691A
+	EndColor #DF691A
+	BoxBackgroundColor transparent
+	BoxBorderColor #4E5D6C
+	BoxFontColor #4E5D6C
+	DelayFontColor #4E5D6C
+	LifeLineBorderColor #4E5D6C
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor transparent
+	GroupBorderColor #4E5D6C
+	GroupFontColor #4E5D6C
+	GroupHeaderFontColor #5bc0de
+	GroupBackgroundColor transparent
+	GroupHeaderBackgroundColor transparent
+	DividerBackgroundColor transparent
+    DividerBorderColor #4E5D6C
+    DividerBorderThickness 2
+    DividerFontColor #abb6c2
+	ReferenceBackgroundColor transparent
+	ReferenceBorderColor #abb6c2
+	ReferenceFontColor #abb6c2
+	ReferenceHeaderFontColor #5bc0de
+	ReferenceHeaderBackgroundColor transparent
+	StereotypeFontColor #DF691A
+}
+
+
+skinparam partition {
+	BorderColor #DF691A
+	FontColor #DF691A
+	BackgroundColor transparent
+}
+
+
+skinparam collections {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+}
+
+
+skinparam control {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+}
+
+
+skinparam entity {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+}
+
+
+skinparam boundary {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+}
+
+
+skinparam agent {
+	BackgroundColor transparent
+	BorderColor #C08A3E
+	FontColor #4E5D6C
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor transparent
+	BorderColor #7ccde5
+	FontColor #7ccde5
+}
+
+
+skinparam artifact {
+	BackgroundColor transparent
+	BorderColor #717d89
+	FontColor #abb6c2
+}
+
+
+skinparam component {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+}
+
+
+skinparam interface {
+	BackgroundColor  transparent
+	BorderColor  #d9534f
+	FontColor #4E5D6C
+}
+
+
+skinparam storage {
+	BackgroundColor transparent
+  	BorderColor #f3bd71
+	FontColor #f0ad4e
+}
+
+
+skinparam node {
+	BackgroundColor  transparent
+	BorderColor #abb6c2
+	FontColor #abb6c2
+}
+
+
+skinparam cloud {
+	BackgroundColor transparent
+	BorderColor #F2FCFE
+	FontColor #4E5D6C
+}
+
+
+skinparam database {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+	FontColor #DF691A
+}
+
+
+skinparam class {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+	FontColor #abb6c2
+	HeaderBackgroundColor #b25415
+	StereotypeFontColor #4E5D6C
+	BorderThickness 1
+	AttributeFontColor #4E5D6C
+	AttributeFontSize 11
+}
+
+
+skinparam object {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+	StereotypeFontColor #4E5D6C
+	BorderThickness 1
+	AttributeFontColor #717d89
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+	BorderThickness 2
+	StereotypeFontColor #DF691A
+}
+
+
+skinparam rectangle {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+	BorderThickness 2
+	StereotypeFontColor #DF691A
+}
+
+
+skinparam package {
+	BackgroundColor transparent
+  	BorderColor #DF691A
+	FontColor #DF691A
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor transparent
+  	BorderColor #f0ad4e
+	FontColor #f0ad4e
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor transparent
+  	BorderColor #5bc0de
+	FontColor #5bc0de
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+	StartColor #5bc0de
+	EndColor #5bc0de
+	AttributeFontColor #717d89
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+}
+
+
+skinparam card {
+	BackgroundColor transparent
+	BorderColor #5bc0de
+	FontColor #5bc0de
+}
+
+
+skinparam file {
+	BackgroundColor transparent
+	BorderColor #abb6c2
+	FontColor #abb6c2
+}
+
+
+skinparam stack {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+}
+scale 0.7
+
+skinparam BackgroundColor white
+
+skinparam DefaultFontName Bahnschrift, Helvetica
+skinparam StateFontName Bahnschrift, Helvetica
+skinparam ArrowFontName Bahnschrift, Helvetica
+skinparam DefaultFontColor black
+
+start
+group Покупатель
+:Поиск товаров;
+if () then (Есть нужные товары)
+:Создание заказа;
+else (Нет нужных товаров)
+stop
+endif
+end group
+
+group Кассир
+:Оплата покупки;
+if () then (Оплата совершена)
+:Сохранение данных в БД;
+else (Оплата не совершена)
+stop
+endif
+end group
+
+group Мерчандайзер
+:Проверка БД мерчандайзером;
+if () then (Нехватка товаров)
+:Заказ товаров у поставщика;
+elseif () then (Изменения цен)
+:Смена ценников;
+stop
+else (Изменений нет)
+stop
+endif
+end group
+
+group Поставщик
+:Поставка товаров;
+if () then (Товары пришли)
+:Перенос товаров на склад;
+else (Товары не пришли)
+stop
+endif
+stop
+end group
+@enduml
+
+PlantUML version 1.2022.4beta2(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

@@ -1,0 +1,190 @@
+<div style="text-align: center">
+<img src="../images/mirea-logo.png" alt="mirea logo" width=80 height=80>
+
+<font size=4>МИНИСТЕРСТВО НАУКИ И ВЫСШЕГО ОБРАЗОВАНИЯ РОССИЙСКОЙ ФЕДЕРАЦИИ</font><br>
+Федеральное государственное бюджетное образовательное учреждение высшего образования<br>
+<b>"МИРЭА - Российский технологический университет"</b><br><br>
+<font size=4><b>РТУ МИРЭА</b></font>
+
+---
+Институт информационных технологий<br>
+Кафедра практической и прикладной информатики
+
+<b>ОТЧЕТ<br>ПО ПРАКТИЧЕСКОЙ РАБОТЕ № 6</b>
+<br><br>
+<b>по дисциплине</b><br>
+«Анализ и концептуальное моделирование систем»
+<br><br>
+
+Выполнил студент группы ИКБО-02-20
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Антонов А.Д.
+
+Принял cтарший преподаватель
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Ахмедова Х.Г.
+
+<br>
+
+Практическая работа выполнена
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+«__» _______ 2022 г.
+
+«Зачтено»
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+«__» _______ 2022 г.
+
+<br>Москва 2022</div>
+
+---
+<div style="page-break-after: always;"></div>
+
+# Практическая работа №6.
+**Построение UML – модели системы. Диаграмма деятельности.**
+
+## Цели и задачи
+
+**Цель работы:**
+научиться строить усовершенствованные блок-схемы с параллельными процессами.
+
+**Задачи:**
+описать все системные операции и последовательность состояний и переходов в рассматриваемой системе.
+
+**Вариант: 1**
+– Моделирование организации розничного бизнеса.
+
+## Ход работы
+1. Описание возможных последовательностей состояний и переходов, которые характеризуют поведение элемента розничного торгового предприятия с помощью диаграммы состояний.
+
+> Рис. 1 - Диаграмма состояния
+
+![state diag](../images/pr6-state-diagram-online.svg)
+
+<div style="page-break-after: always;"></div>
+
+2. Описать все системные операции посредством диаграммы деятельности.
+
+> Рис. 2 - Диаграмма деятельности
+
+![activity diag](../images/pr6-activity-diagram-online.svg)
+
+## Вывод
+В результате выполнения данной практической работы были изучены усовершенствованные блок-схемы с параллельными процессами.
+
+<div style="page-break-after: always;"></div>
+
+## Приложение
+Диаграммы последовательности в этой работе сгенерированы с помощью кода.
+Для генерации диаграммы использовался язык **PlantUML**, из написанного кода создана диаграмма в формате `.svg`.
+Отчет написан в формате **Markdown** (`.md`) и экспортирован в формат `.pdf`.
+
+Код диаграмм приведен ниже:
+> Листинг 1 - Код диаграммы состояний
+
+```plantuml
+@startuml pr6-state-diagram
+state start1 <<start>>
+state start2 <<start>>
+state end1   <<end>>
+state end2   <<end>>
+
+state FindGoods as "Поиск товаров"
+FindGoods: Клиент ищет нужные товары,
+FindGoods: принимает решение о покупке 
+
+state CreateOrder as "Создание заказа"
+CreateOrder: Добавление товаров в заказ,
+CreateOrder: применение скидок
+
+state Purchase as "Оплата покупки"
+Purchase: Выбор способа оплаты,
+Purchase: получение данных,
+Purchase: передача состояния оплаты
+
+state SaveToDB as "Сохранение данных в БД"
+SaveToDB: Получение информации о покупке,
+SaveToDB: изменение данных о наличии,
+SaveToDB: запись статистики
+
+state CheckChanges as "Проверка БД мерчандайзером"
+CheckChanges: Получение информации о товарах,
+CheckChanges: проверка на наличие изменений
+
+state ChangeTags as "Смена ценников"
+ChangeTags: Получение информации о ценах,
+ChangeTags: печать и замена ценников
+
+state OrderGoods as "Заказ товаров у поставщика"
+OrderGoods: Определение списка товаров,
+OrderGoods: оформление заказа
+
+state StoreGoods as "Перенос товаров на склад"
+StoreGoods: Получение информации о поставке,
+StoreGoods: прием поставки, перенос товаров
+
+start1 --> FindGoods
+FindGoods --> end1: Нет нужных товаров
+FindGoods --> CreateOrder: Есть нужные товары
+CreateOrder --> Purchase
+Purchase --> end1: Оплата не совершена
+Purchase --> SaveToDB: Оплата совершена
+SaveToDB --> end1
+
+start2 --> CheckChanges
+CheckChanges --> end2: Изменений нет
+CheckChanges --> ChangeTags: Изменения цен
+CheckChanges --> OrderGoods: Нехватка товаров
+OrderGoods --> end2: Товары не пришли
+OrderGoods --> StoreGoods: Товары пришли
+StoreGoods --> end2
+@enduml
+```
+
+<br>
+
+> Листинг 2 - Код диаграммы деятельности
+
+```plantuml
+@startuml pr6-activity-diagram
+start
+group Покупатель
+:Поиск товаров;
+if () then (Есть нужные товары)
+:Создание заказа;
+else (Нет нужных товаров)
+stop
+endif
+end group
+
+group Кассир
+:Оплата покупки;
+if () then (Оплата совершена)
+:Сохранение данных в БД;
+else (Оплата не совершена)
+stop
+endif
+end group
+
+group Мерчандайзер
+:Проверка БД мерчандайзером;
+if () then (Нехватка товаров)
+:Заказ товаров у поставщика;
+elseif () then (Изменения цен)
+:Смена ценников;
+stop
+else (Изменений нет)
+stop
+endif
+end group
+
+group Поставщик
+:Поставка товаров;
+if () then (Товары пришли)
+:Перенос товаров на склад;
+else (Товары не пришли)
+stop
+endif
+stop
+end group
+@enduml
+```
