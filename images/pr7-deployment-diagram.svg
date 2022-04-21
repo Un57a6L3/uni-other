@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="506.25px" preserveAspectRatio="none" style="width:763px;height:506px;background:#FFFFFF;" version="1.1" viewBox="0 0 763 506" width="763.5417px" zoomAndPan="magnify"><defs/><g><!--MD5=[236f19328d8ac5cb1bcd7bd6d8bfdc98]
+entity Cashpoint--><polygon points="38.5417,177.0833,48.9583,166.6667,173.9583,166.6667,173.9583,234.6029,163.5417,245.0195,38.5417,245.0195,38.5417,177.0833" style="stroke:#ABB6C2;stroke-width:1.0416666666666667;fill:none;"/><line style="stroke:#ABB6C2;stroke-width:1.0416666666666667;fill:none;" x1="163.5417" x2="173.9583" y1="177.0833" y2="166.6667"/><line style="stroke:#ABB6C2;stroke-width:1.0416666666666667;fill:none;" x1="38.5417" x2="163.5417" y1="177.0833" y2="177.0833"/><line style="stroke:#ABB6C2;stroke-width:1.0416666666666667;fill:none;" x1="163.5417" x2="163.5417" y1="177.0833" y2="245.0195"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="14.5833" lengthAdjust="spacing" textLength="83.3333" x="59.375" y="207.8471">«Cashpoint»</text><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="14.5833" lengthAdjust="spacing" textLength="39.5833" x="59.375" y="226.1902">Касса</text><!--MD5=[f86d083f7526329011f4b6f057bca77a]
+entity Terminal--><polygon points="210.9375,167.7083,221.3542,157.2917,426.5625,157.2917,426.5625,243.571,416.1458,253.9876,210.9375,253.9876,210.9375,167.7083" style="stroke:#ABB6C2;stroke-width:1.0416666666666667;fill:none;"/><line style="stroke:#ABB6C2;stroke-width:1.0416666666666667;fill:none;" x1="416.1458" x2="426.5625" y1="167.7083" y2="157.2917"/><line style="stroke:#ABB6C2;stroke-width:1.0416666666666667;fill:none;" x1="210.9375" x2="416.1458" y1="167.7083" y2="167.7083"/><line style="stroke:#ABB6C2;stroke-width:1.0416666666666667;fill:none;" x1="416.1458" x2="416.1458" y1="167.7083" y2="253.9876"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="14.5833" lengthAdjust="spacing" textLength="73.9583" x="231.7708" y="198.4721">«Terminal»</text><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="14.5833" lengthAdjust="spacing" textLength="136.4583" x="231.7708" y="216.8152">Терминал работы с</text><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="14.5833" lengthAdjust="spacing" textLength="163.5417" x="231.7708" y="235.1583">товарами и поставками</text><!--MD5=[b1435b213846e3ddcd1e6c1cd6b83b9a]
+entity Server--><polygon points="463.5417,177.0833,473.9583,166.6667,661.4583,166.6667,661.4583,234.6029,651.0417,245.0195,463.5417,245.0195,463.5417,177.0833" style="stroke:#ABB6C2;stroke-width:1.0416666666666667;fill:none;"/><line style="stroke:#ABB6C2;stroke-width:1.0416666666666667;fill:none;" x1="651.0417" x2="661.4583" y1="177.0833" y2="166.6667"/><line style="stroke:#ABB6C2;stroke-width:1.0416666666666667;fill:none;" x1="463.5417" x2="651.0417" y1="177.0833" y2="177.0833"/><line style="stroke:#ABB6C2;stroke-width:1.0416666666666667;fill:none;" x1="651.0417" x2="651.0417" y1="177.0833" y2="245.0195"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="14.5833" lengthAdjust="spacing" textLength="60.4167" x="484.375" y="207.8471">«Server»</text><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="14.5833" lengthAdjust="spacing" textLength="145.8333" x="484.375" y="226.1902">Сервер предприятия</text><!--MD5=[ecac65e018b2ccf4411957157ca2cac5]
+entity Network--><polygon points="242.1875,27.0833,252.6042,16.6667,395.3125,16.6667,395.3125,84.6029,384.8958,95.0195,242.1875,95.0195,242.1875,27.0833" style="stroke:#ABB6C2;stroke-width:1.0416666666666667;fill:none;"/><line style="stroke:#ABB6C2;stroke-width:1.0416666666666667;fill:none;" x1="384.8958" x2="395.3125" y1="27.0833" y2="16.6667"/><line style="stroke:#ABB6C2;stroke-width:1.0416666666666667;fill:none;" x1="242.1875" x2="384.8958" y1="27.0833" y2="27.0833"/><line style="stroke:#ABB6C2;stroke-width:1.0416666666666667;fill:none;" x1="384.8958" x2="384.8958" y1="27.0833" y2="95.0195"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="14.5833" lengthAdjust="spacing" textLength="68.75" x="263.0208" y="57.8471">«Network»</text><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="14.5833" lengthAdjust="spacing" textLength="101.0417" x="263.0208" y="76.1902">Закрытая сеть</text><!--MD5=[6de0022a335a6234c86219def61d52fb]
+entity BuyerDB--><path d="M467.7083,367.7083 C467.7083,357.2917 527.0833,357.2917 527.0833,357.2917 C527.0833,357.2917 586.4583,357.2917 586.4583,367.7083 L586.4583,442.5293 C586.4583,452.946 527.0833,452.946 527.0833,452.946 C527.0833,452.946 467.7083,452.946 467.7083,442.5293 L467.7083,367.7083 " style="stroke:#E58748;stroke-width:1.0416666666666667;fill:none;"/><path d="M467.7083,367.7083 C467.7083,378.125 527.0833,378.125 527.0833,378.125 C527.0833,378.125 586.4583,378.125 586.4583,367.7083 " fill="none" style="stroke:#E58748;stroke-width:1.0416666666666667;"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="14.5833" lengthAdjust="spacing" textLength="75" x="489.5833" y="402.6388">«BuyerDB»</text><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="14.5833" lengthAdjust="spacing" textLength="86.4583" x="483.8542" y="420.9819">База данных</text><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="14.5833" lengthAdjust="spacing" textLength="87.5" x="483.3333" y="439.325">покупателей</text><!--MD5=[6f79f415f2847134bbfb684f4183adf2]
+entity GoodsDB--><path d="M623.4375,367.7083 C623.4375,357.2917 682.2917,357.2917 682.2917,357.2917 C682.2917,357.2917 741.1458,357.2917 741.1458,367.7083 L741.1458,442.5293 C741.1458,452.946 682.2917,452.946 682.2917,452.946 C682.2917,452.946 623.4375,452.946 623.4375,442.5293 L623.4375,367.7083 " style="stroke:#E58748;stroke-width:1.0416666666666667;fill:none;"/><path d="M623.4375,367.7083 C623.4375,378.125 682.2917,378.125 682.2917,378.125 C682.2917,378.125 741.1458,378.125 741.1458,367.7083 " fill="none" style="stroke:#E58748;stroke-width:1.0416666666666667;"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="14.5833" lengthAdjust="spacing" textLength="80.2083" x="642.1875" y="402.6388">«GoodsDB»</text><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="14.5833" lengthAdjust="spacing" textLength="86.4583" x="639.0625" y="420.9819">База данных</text><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="14.5833" lengthAdjust="spacing" textLength="55.2083" x="654.6875" y="439.325">товаров</text><path d="M16.6667,364.0625 L16.6667,446.4111 A4.1667,4.1667 0 0 0 20.8333,450.5778 L191.6667,450.5778 A4.1667,4.1667 0 0 0 195.8333,446.4111 L195.8333,370.3125 L185.4167,359.8958 L110.4167,359.8958 L106.25,244.8333 L102.0833,359.8958 L20.8333,359.8958 A4.1667,4.1667 0 0 0 16.6667,364.0625 " style="stroke:#E58748;stroke-width:1.0416666666666667;fill:none;"/><path d="M185.4167,359.8958 L185.4167,368.2292 A2.0833,2.0833 0 0 0 187.5,370.3125 L195.8333,370.3125 L185.4167,359.8958 " style="stroke:#E58748;stroke-width:1.0416666666666667;fill:none;"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="13.5417" lengthAdjust="spacing" textLength="144.7917" x="28.125" y="384.3699">Кассир создает заказы</text><line style="stroke:#E58748;stroke-width:1.0416666666666667;" x1="17.7083" x2="194.7917" y1="392.5537" y2="392.5537"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="13.5417" lengthAdjust="spacing" textLength="146.875" x="28.125" y="415.9861">Покупатель оплачивает</text><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="13.5417" lengthAdjust="spacing" textLength="42.7083" x="28.125" y="433.019">заказы</text><path d="M240.625,320.8333 L240.625,490.0635 A4.1667,4.1667 0 0 0 244.7917,494.2301 L392.7083,494.2301 A4.1667,4.1667 0 0 0 396.875,490.0635 L396.875,327.0833 L386.4583,316.6667 L322.9167,316.6667 L318.75,254.5521 L314.5833,316.6667 L244.7917,316.6667 A4.1667,4.1667 0 0 0 240.625,320.8333 " style="stroke:#E58748;stroke-width:1.0416666666666667;fill:none;"/><path d="M386.4583,316.6667 L386.4583,325 A2.0833,2.0833 0 0 0 388.5417,327.0833 L396.875,327.0833 L386.4583,316.6667 " style="stroke:#E58748;stroke-width:1.0416666666666667;fill:none;"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="13.5417" lengthAdjust="spacing" textLength="92.7083" x="252.0833" y="341.1407">Связывается с</text><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="13.5417" lengthAdjust="spacing" textLength="91.6667" x="252.0833" y="358.1736">поставщиками</text><line style="stroke:#E58748;stroke-width:1.0416666666666667;" x1="241.6667" x2="395.8333" y1="366.3574" y2="366.3574"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="13.5417" lengthAdjust="spacing" textLength="91.6667" x="252.0833" y="389.7898">Мерчандайзер</text><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="13.5417" lengthAdjust="spacing" textLength="123.9583" x="252.0833" y="406.8227">редактирует товары</text><line style="stroke:#E58748;stroke-width:1.0416666666666667;" x1="241.6667" x2="395.8333" y1="419.1732" y2="419.1732"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="13.5417" lengthAdjust="spacing" textLength="91.6667" x="252.0833" y="442.6056">Мерчандайзер</text><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="13.5417" lengthAdjust="spacing" textLength="107.2917" x="252.0833" y="459.6385">взаимодействует</text><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="13.5417" lengthAdjust="spacing" textLength="83.3333" x="252.0833" y="476.6713">с поставками</text><!--MD5=[9fe47e719d730920b10ca5fdccdc1351]
+link Network to Cashpoint--><path codeLine="61" d="M264.0208,94.8646 C232.4271,116.8646 192.7917,144.4479 161.1563,166.4688 " fill="none" id="Network-Cashpoint" style="stroke:#DF691A;stroke-width:3.125;"/><!--MD5=[832e9c57b5f6b2af28e898e559a51b49]
+link Network to Terminal--><path codeLine="62" d="M318.75,94.8646 C318.75,113.8646 318.75,137.0417 318.75,157.1875 " fill="none" id="Network-Terminal" style="stroke:#DF691A;stroke-width:3.125;"/><!--MD5=[b6f30274b2a76bef8d2f446f614f7c70]
+link Network to Server--><path codeLine="63" d="M381.5208,94.8646 C417.7708,116.8646 463.2292,144.4479 499.5208,166.4688 " fill="none" id="Network-Server" style="stroke:#DF691A;stroke-width:3.125;"/><!--MD5=[70d193fa2e1635e9d8e36eadab0b8893]
+link Server to BuyerDB--><path codeLine="64" d="M555.6667,244.8333 C549.9271,276.875 541.6771,322.8333 535.5208,357.1667 " fill="none" id="Server-BuyerDB" style="stroke:#DF691A;stroke-width:3.125;stroke-dasharray:7.0,7.0;"/><!--MD5=[3ab6a664af9a094265d89e9793ed7fb1]
+link Server to GoodsDB--><path codeLine="65" d="M585.5938,244.8333 C605.0417,276.875 632.9375,322.8333 653.7708,357.1667 " fill="none" id="Server-GoodsDB" style="stroke:#DF691A;stroke-width:3.125;stroke-dasharray:7.0,7.0;"/><!--MD5=[f6747382b02168aae14eaa6f8a9faf27]
+@startuml pr7-deployment-diagram
+!theme superhero-outline
+
+skinparam BackgroundColor white
+
+!$font = "Bahnschrift, Helvetica"
+skinparam DefaultFontName $font
+skinparam StateFontName $font
+skinparam ArrowFontName $font
+skinparam DefaultFontColor black
+skinparam NodeFontColor black
+skinparam NoteFontColor black
+skinparam DatabaseFontColor black
+
+node Cashpoint [
+    <<Cashpoint>>
+    Касса
+]
+node Terminal [
+    <<Terminal>>
+    Терминал работы с
+    товарами и поставками
+]
+node Server [
+    <<Server>>
+    Сервер предприятия
+]
+node Network [
+    <<Network>>
+    Закрытая сеть
+]
+database BuyerDB [
+    <<BuyerDB>>
+    База данных
+    покупателей
+]
+database GoodsDB [
+    <<GoodsDB>>
+    База данных
+    товаров
+]
+
+note bottom of Cashpoint
+    Кассир создает заказы
+    - - - -
+    Покупатель оплачивает
+    заказы
+end note
+
+note bottom of Terminal
+    Связывается с
+    поставщиками
+    - - - -
+    Мерчандайзер
+    редактирует товары
+    - - - -
+    Мерчандайзер
+    взаимодействует
+    с поставками
+end note
+
+Network - - Cashpoint
+Network - - Terminal
+Network - - Server
+Server .. BuyerDB
+Server .. GoodsDB
+@enduml
+
+@startuml pr7-deployment-diagram
+
+
+
+skinparam backgroundColor transparent
+skinparam useBetaStyle false
+
+
+
+
+
+
+<style>
+  root {
+    BackgroundColor transparent
+    FontColor #DF691A
+    HyperLinkColor #f0ad4e
+    LineColor #e58748
+    LineThickness 1
+    Margin 10
+    Padding 6
+    Shadowing 0.0
+  }
+  node {
+   Padding 15
+   roundcorner 20
+   BackgroundColor transparent
+  }
+  caption {
+    LineThickness 0
+  }
+  footer {
+    LineThickness 0
+  }
+  groupHeader {
+    BackgroundColor #4E5D6C
+    FontColor #5bc0de
+    FontStyle bold
+  }
+  header {
+    LineThickness 0
+  }
+  referenceHeader {
+    BackgroundColor transparent
+    FontColor #4E5D6C
+    FontStyle bold
+  }
+  separator {
+    BackgroundColor #FFF
+    FontColor transparent
+    FontStyle bold
+  }
+  title {
+	FontSize 20
+	BorderRoundCorner            8
+	BorderThickness 	         1
+	BackgroundColor  transparent
+	FontColor #DF691A
+	BorderColor #4E5D6C
+  }
+  nwdiagDiagram {
+	network {
+			FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent    
+		LineColor #DF691A
+		LineThickness 1.0
+		FontColor #b25415
+	}
+	server {
+			FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+	}
+	arrow {
+		FontColor #b25415
+		LineColor #b25415
+	}
+	group {
+		BackGroundColor #abb6c2
+		LineColor #bcc5ce
+		LineThickness 2.0
+		Margin 5
+		Padding 5
+	}
+  }
+  ganttDiagram {
+	task {
+			FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+		LineColor #DF691A
+		Margin 10
+		Padding 6
+	}
+	note {
+		FontColor #5bc0de
+		LineColor #7ccde5
+		BackGroundColor transparent
+	}
+	separator {
+		LineColor #717d89
+		BackGroundColor transparent
+		FontColor #717d89
+	}
+	milestone {
+		FontColor #5bc0de
+		FontSize 16
+		FontStyle italic
+		BackGroundColor #4E5D6C
+		LineColor #717d89
+	}
+	timeline {
+		BackgroundColor #4E5D6C
+		FontColor #717d89
+	}
+	closed {
+		BackgroundColor #f3bd71
+		FontColor #f0ad4e
+	}
+  }
+</style>
+skinparam defaultFontName       "Verdana"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           8
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               5
+skinparam TitleFontColor	    #4E5D6C
+skinparam TitleFontSize	    	20
+skinparam TitleBorderThickness 	0
+skinparam ArrowColor            #4E5D6C
+skinparam stereotype {
+    CBackgroundColor #717d89
+    CBorderColor #3e4a56
+    ABackgroundColor #5F8F00
+    ABorderColor #4a934a
+    IBackgroundColor #AE423F
+    IBorderColor #e17572
+    EBackgroundColor #C08A3E
+    EBorderColor #f3bd71
+    NBackgroundColor #499AB2
+    NBorderColor #7ccde5
+}
+skinparam title {
+	FontColor	                 #DF691A
+	BorderColor	                 #717d89
+	FontSize	    	         20
+	BorderRoundCorner            8
+	BorderThickness 	         1
+	BackgroundColor              transparent
+}
+
+
+skinparam legend {
+	BackgroundColor transparent
+	BorderColor #717d89
+	FontColor #abb6c2
+}
+
+skinparam swimlane {
+	BorderColor #5bc0de
+	BorderThickness 2
+	TitleBackgroundColor  #3e4a56-#4E5D6C
+	TitleFontColor #DF691A
+}
+
+
+skinparam activity {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+	BarColor #5cb85c
+	StartColor #5bc0de
+	EndColor #5bc0de
+	DiamondBackgroundColor transparent
+  	DiamondBorderColor #717d89
+  	DiamondFontColor #717d89
+}
+
+
+skinparam participant {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+	FontColor #DF691A
+}
+
+
+skinparam arrow {
+	Thickness 3
+	Color #DF691A
+	FontColor #FFF
+}
+
+
+skinparam sequence {
+	BorderColor #DF691A
+	TitleFontColor #DF691A
+	BackgroundColor transparent
+	StartColor #DF691A
+	EndColor #DF691A
+	BoxBackgroundColor transparent
+	BoxBorderColor #4E5D6C
+	BoxFontColor #4E5D6C
+	DelayFontColor #4E5D6C
+	LifeLineBorderColor #4E5D6C
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor transparent
+	GroupBorderColor #4E5D6C
+	GroupFontColor #4E5D6C
+	GroupHeaderFontColor #5bc0de
+	GroupBackgroundColor transparent
+	GroupHeaderBackgroundColor transparent
+	DividerBackgroundColor transparent
+    DividerBorderColor #4E5D6C
+    DividerBorderThickness 2
+    DividerFontColor #abb6c2
+	ReferenceBackgroundColor transparent
+	ReferenceBorderColor #abb6c2
+	ReferenceFontColor #abb6c2
+	ReferenceHeaderFontColor #5bc0de
+	ReferenceHeaderBackgroundColor transparent
+	StereotypeFontColor #DF691A
+}
+
+
+skinparam partition {
+	BorderColor #DF691A
+	FontColor #DF691A
+	BackgroundColor transparent
+}
+
+
+skinparam collections {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+}
+
+
+skinparam control {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+}
+
+
+skinparam entity {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+}
+
+
+skinparam boundary {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+}
+
+
+skinparam agent {
+	BackgroundColor transparent
+	BorderColor #C08A3E
+	FontColor #4E5D6C
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor transparent
+	BorderColor #7ccde5
+	FontColor #7ccde5
+}
+
+
+skinparam artifact {
+	BackgroundColor transparent
+	BorderColor #717d89
+	FontColor #abb6c2
+}
+
+
+skinparam component {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+}
+
+
+skinparam interface {
+	BackgroundColor  transparent
+	BorderColor  #d9534f
+	FontColor #4E5D6C
+}
+
+
+skinparam storage {
+	BackgroundColor transparent
+  	BorderColor #f3bd71
+	FontColor #f0ad4e
+}
+
+
+skinparam node {
+	BackgroundColor  transparent
+	BorderColor #abb6c2
+	FontColor #abb6c2
+}
+
+
+skinparam cloud {
+	BackgroundColor transparent
+	BorderColor #F2FCFE
+	FontColor #4E5D6C
+}
+
+
+skinparam database {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+	FontColor #DF691A
+}
+
+
+skinparam class {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+	FontColor #abb6c2
+	HeaderBackgroundColor #b25415
+	StereotypeFontColor #4E5D6C
+	BorderThickness 1
+	AttributeFontColor #4E5D6C
+	AttributeFontSize 11
+}
+
+
+skinparam object {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+	StereotypeFontColor #4E5D6C
+	BorderThickness 1
+	AttributeFontColor #717d89
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+	BorderThickness 2
+	StereotypeFontColor #DF691A
+}
+
+
+skinparam rectangle {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+	BorderThickness 2
+	StereotypeFontColor #DF691A
+}
+
+
+skinparam package {
+	BackgroundColor transparent
+  	BorderColor #DF691A
+	FontColor #DF691A
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor transparent
+  	BorderColor #f0ad4e
+	FontColor #f0ad4e
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor transparent
+  	BorderColor #5bc0de
+	FontColor #5bc0de
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+	StartColor #5bc0de
+	EndColor #5bc0de
+	AttributeFontColor #717d89
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+}
+
+
+skinparam card {
+	BackgroundColor transparent
+	BorderColor #5bc0de
+	FontColor #5bc0de
+}
+
+
+skinparam file {
+	BackgroundColor transparent
+	BorderColor #abb6c2
+	FontColor #abb6c2
+}
+
+
+skinparam stack {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+}
+
+skinparam BackgroundColor white
+
+skinparam DefaultFontName Bahnschrift, Helvetica
+skinparam StateFontName Bahnschrift, Helvetica
+skinparam ArrowFontName Bahnschrift, Helvetica
+skinparam DefaultFontColor black
+skinparam NodeFontColor black
+skinparam NoteFontColor black
+skinparam DatabaseFontColor black
+
+node Cashpoint [
+    <<Cashpoint>>
+    Касса
+]
+node Terminal [
+    <<Terminal>>
+    Терминал работы с
+    товарами и поставками
+]
+node Server [
+    <<Server>>
+    Сервер предприятия
+]
+node Network [
+    <<Network>>
+    Закрытая сеть
+]
+database BuyerDB [
+    <<BuyerDB>>
+    База данных
+    покупателей
+]
+database GoodsDB [
+    <<GoodsDB>>
+    База данных
+    товаров
+]
+
+note bottom of Cashpoint
+    Кассир создает заказы
+    - - - -
+    Покупатель оплачивает
+    заказы
+end note
+
+note bottom of Terminal
+    Связывается с
+    поставщиками
+    - - - -
+    Мерчандайзер
+    редактирует товары
+    - - - -
+    Мерчандайзер
+    взаимодействует
+    с поставками
+end note
+
+Network - - Cashpoint
+Network - - Terminal
+Network - - Server
+Server .. BuyerDB
+Server .. GoodsDB
+@enduml
+
+PlantUML version 1.2022.0(Tue Jan 11 19:16:42 MSK 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1251
+Language: ru
+Country: RU
+--></g></svg>

@@ -1,0 +1,67 @@
+@startuml pr7-deployment-diagram
+!theme superhero-outline
+
+skinparam BackgroundColor white
+
+!$font = "Bahnschrift, Helvetica"
+skinparam DefaultFontName $font
+skinparam StateFontName $font
+skinparam ArrowFontName $font
+skinparam DefaultFontColor black
+skinparam NodeFontColor black
+skinparam NoteFontColor black
+skinparam DatabaseFontColor black
+
+node Cashpoint [
+    <<Cashpoint>>
+    Касса
+]
+node Terminal [
+    <<Terminal>>
+    Терминал работы с
+    товарами и поставками
+]
+node Server [
+    <<Server>>
+    Сервер предприятия
+]
+node Network [
+    <<Network>>
+    Закрытая сеть
+]
+database BuyerDB [
+    <<BuyerDB>>
+    База данных
+    покупателей
+]
+database GoodsDB [
+    <<GoodsDB>>
+    База данных
+    товаров
+]
+
+note bottom of Cashpoint
+    Кассир создает заказы
+    ----
+    Покупатель оплачивает
+    заказы
+end note
+
+note bottom of Terminal
+    Связывается с
+    поставщиками
+    ----
+    Мерчандайзер
+    редактирует товары
+    ----
+    Мерчандайзер
+    взаимодействует
+    с поставками
+end note
+
+Network -- Cashpoint
+Network -- Terminal
+Network -- Server
+Server .. BuyerDB
+Server .. GoodsDB
+@enduml

@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="490.625px" preserveAspectRatio="none" style="width:1088px;height:490px;background:#FFFFFF;" version="1.1" viewBox="0 0 1088 490" width="1088.5417px" zoomAndPan="magnify"><defs/><g><!--MD5=[cc0e9553a9994d3528f05fec1ef6e515]
+cluster Selling--><polygon fill="#FFFFFF" points="27.0833,45.3125,37.5,34.8958,418.75,34.8958,418.75,363.5417,408.3333,373.9583,27.0833,373.9583,27.0833,45.3125" style="stroke:#ABB6C2;stroke-width:1.0416666666666667;"/><line style="stroke:#ABB6C2;stroke-width:1.0416666666666667;" x1="408.3333" x2="418.75" y1="45.3125" y2="34.8958"/><line style="stroke:#ABB6C2;stroke-width:1.0416666666666667;" x1="27.0833" x2="408.3333" y1="45.3125" y2="45.3125"/><line style="stroke:#ABB6C2;stroke-width:1.0416666666666667;" x1="408.3333" x2="408.3333" y1="45.3125" y2="373.9583"/><text fill="#DF691A" font-family="Bahnschrift, Helvetica" font-size="20.8333" font-weight="bold" lengthAdjust="spacing" textLength="91.6667" x="172.9167" y="75.2726">Продажа</text><!--MD5=[f7028cd4f07fcf35873925a37cc2e9e5]
+cluster Control--><polygon fill="#FFFFFF" points="443.75,27.0833,454.1667,16.6667,836.4583,16.6667,836.4583,363.5417,826.0417,373.9583,443.75,373.9583,443.75,27.0833" style="stroke:#ABB6C2;stroke-width:1.0416666666666667;"/><line style="stroke:#ABB6C2;stroke-width:1.0416666666666667;" x1="826.0417" x2="836.4583" y1="27.0833" y2="16.6667"/><line style="stroke:#ABB6C2;stroke-width:1.0416666666666667;" x1="443.75" x2="826.0417" y1="27.0833" y2="27.0833"/><line style="stroke:#ABB6C2;stroke-width:1.0416666666666667;" x1="826.0417" x2="826.0417" y1="27.0833" y2="373.9583"/><text fill="#DF691A" font-family="Bahnschrift, Helvetica" font-size="20.8333" font-weight="bold" lengthAdjust="spacing" textLength="122.9167" x="574.4792" y="57.0435">Управление</text><!--MD5=[64ed0544d18adf22c9c72c5cee5c3613]
+cluster AccountingNode--><polygon fill="#FFFFFF" points="861.4583,54.6875,871.875,44.2708,1065.625,44.2708,1065.625,363.5417,1055.2083,373.9583,861.4583,373.9583,861.4583,54.6875" style="stroke:#ABB6C2;stroke-width:1.0416666666666667;"/><line style="stroke:#ABB6C2;stroke-width:1.0416666666666667;" x1="1055.2083" x2="1065.625" y1="54.6875" y2="44.2708"/><line style="stroke:#ABB6C2;stroke-width:1.0416666666666667;" x1="861.4583" x2="1055.2083" y1="54.6875" y2="54.6875"/><line style="stroke:#ABB6C2;stroke-width:1.0416666666666667;" x1="1055.2083" x2="1055.2083" y1="54.6875" y2="373.9583"/><text fill="#DF691A" font-family="Bahnschrift, Helvetica" font-size="20.8333" font-weight="bold" lengthAdjust="spacing" textLength="45.8333" x="936.4583" y="84.6476">Учет</text><!--MD5=[47ff77aa0c83e39dfbf68f02e0ff0579]
+entity CreateOrder--><rect height="96.696" rx="4.1667" ry="4.1667" style="stroke:#E58748;stroke-width:1.0416666666666667;fill:none;" width="163.5417" x="238.0208" y="96.3542"/><rect height="10.4167" style="stroke:#E58748;stroke-width:1.0416666666666667;fill:none;" width="15.625" x="380.7292" y="101.5625"/><rect height="2.0833" style="stroke:#E58748;stroke-width:1.0416666666666667;fill:none;" width="4.1667" x="378.6458" y="103.6458"/><rect height="2.0833" style="stroke:#E58748;stroke-width:1.0416666666666667;fill:none;" width="4.1667" x="378.6458" y="107.8125"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="14.5833" lengthAdjust="spacing" textLength="100" x="258.8542" y="137.5346">«CreateOrder»</text><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="14.5833" lengthAdjust="spacing" textLength="105.2083" x="258.8542" y="155.8777">Компонент для</text><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="14.5833" lengthAdjust="spacing" textLength="111.4583" x="258.8542" y="174.2208">создания заказа</text><!--MD5=[820be1e89f65acfaeb8b4c43bcaad987]
+entity PayOrder--><rect height="96.696" rx="4.1667" ry="4.1667" style="stroke:#E58748;stroke-width:1.0416666666666667;fill:none;" width="157.2917" x="44.2708" y="96.3542"/><rect height="10.4167" style="stroke:#E58748;stroke-width:1.0416666666666667;fill:none;" width="15.625" x="180.7292" y="101.5625"/><rect height="2.0833" style="stroke:#E58748;stroke-width:1.0416666666666667;fill:none;" width="4.1667" x="178.6458" y="103.6458"/><rect height="2.0833" style="stroke:#E58748;stroke-width:1.0416666666666667;fill:none;" width="4.1667" x="178.6458" y="107.8125"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="14.5833" lengthAdjust="spacing" textLength="80.2083" x="65.1042" y="137.5346">«PayOrder»</text><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="14.5833" lengthAdjust="spacing" textLength="105.2083" x="65.1042" y="155.8777">Компонент для</text><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="14.5833" lengthAdjust="spacing" textLength="98.9583" x="65.1042" y="174.2208">оплаты заказа</text><!--MD5=[c5106896de005f0d0a40321ee6267aa3]
+entity OrderData1--><ellipse cx="122.9167" cy="315.625" rx="8.3333" ry="8.3333" style="stroke:#D9534F;stroke-width:1.0416666666666667;fill:none;"/><text fill="#4E5D6C" font-family="Bahnschrift, Helvetica" font-size="14.5833" lengthAdjust="spacing" textLength="101.0417" x="72.3958" y="353.6804">Данные заказа</text><!--MD5=[8fe1da18eeacd91ba278c49fb7627570]
+entity FTP1--><ellipse cx="319.7917" cy="315.625" rx="8.3333" ry="8.3333" style="stroke:#D9534F;stroke-width:1.0416666666666667;fill:none;"/><text fill="#4E5D6C" font-family="Bahnschrift, Helvetica" font-size="14.5833" lengthAdjust="spacing" textLength="75" x="282.2917" y="353.6804">Связь с БД</text><!--MD5=[63d3d5e53dcfafa451df874911653df6]
+entity EditGoods--><rect height="133.3822" rx="4.1667" ry="4.1667" style="stroke:#E58748;stroke-width:1.0416666666666667;fill:none;" width="164.5833" x="655.2083" y="78.125"/><rect height="10.4167" style="stroke:#E58748;stroke-width:1.0416666666666667;fill:none;" width="15.625" x="798.9583" y="83.3333"/><rect height="2.0833" style="stroke:#E58748;stroke-width:1.0416666666666667;fill:none;" width="4.1667" x="796.875" y="85.4167"/><rect height="2.0833" style="stroke:#E58748;stroke-width:1.0416666666666667;fill:none;" width="4.1667" x="796.875" y="89.5833"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="14.5833" lengthAdjust="spacing" textLength="85.4167" x="676.0417" y="119.3054">«EditGoods»</text><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="14.5833" lengthAdjust="spacing" textLength="105.2083" x="676.0417" y="137.6485">Компонент для</text><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="14.5833" lengthAdjust="spacing" textLength="112.5" x="676.0417" y="155.9916">редактирования</text><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="14.5833" lengthAdjust="spacing" textLength="89.5833" x="676.0417" y="174.3347">информации</text><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="14.5833" lengthAdjust="spacing" textLength="66.6667" x="676.0417" y="192.6778">о товарах</text><!--MD5=[27bb41f17b5b6bd45b0a7684a5b37f60]
+entity OrderGoods--><rect height="115.0391" rx="4.1667" ry="4.1667" style="stroke:#E58748;stroke-width:1.0416666666666667;fill:none;" width="157.2917" x="460.9375" y="87.5"/><rect height="10.4167" style="stroke:#E58748;stroke-width:1.0416666666666667;fill:none;" width="15.625" x="597.3958" y="92.7083"/><rect height="2.0833" style="stroke:#E58748;stroke-width:1.0416666666666667;fill:none;" width="4.1667" x="595.3125" y="94.7917"/><rect height="2.0833" style="stroke:#E58748;stroke-width:1.0416666666666667;fill:none;" width="4.1667" x="595.3125" y="98.9583"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="14.5833" lengthAdjust="spacing" textLength="98.9583" x="481.7708" y="128.6804">«OrderGoods»</text><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="14.5833" lengthAdjust="spacing" textLength="105.2083" x="481.7708" y="147.0235">Компонент для</text><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="14.5833" lengthAdjust="spacing" textLength="103.125" x="481.7708" y="165.3666">заказа товаров</text><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="14.5833" lengthAdjust="spacing" textLength="100" x="481.7708" y="183.7097">у поставщиков</text><!--MD5=[163e01133f0bf95eb94e0a2662b54863]
+entity OrderData2--><ellipse cx="539.5833" cy="315.625" rx="8.3333" ry="8.3333" style="stroke:#D9534F;stroke-width:1.0416666666666667;fill:none;"/><text fill="#4E5D6C" font-family="Bahnschrift, Helvetica" font-size="14.5833" lengthAdjust="spacing" textLength="101.0417" x="489.0625" y="353.6804">Данные заказа</text><!--MD5=[00a6c11f1c584d6efd768427573dbb54]
+entity FTP2--><ellipse cx="713.5417" cy="315.625" rx="8.3333" ry="8.3333" style="stroke:#D9534F;stroke-width:1.0416666666666667;fill:none;"/><text fill="#4E5D6C" font-family="Bahnschrift, Helvetica" font-size="14.5833" lengthAdjust="spacing" textLength="75" x="676.0417" y="353.6804">Связь с БД</text><!--MD5=[967ecd365932dbe4bfe960d9678e76a9]
+entity Accounting--><rect height="78.3529" rx="4.1667" ry="4.1667" style="stroke:#E58748;stroke-width:1.0416666666666667;fill:none;" width="170.8333" x="878.125" y="105.7292"/><rect height="10.4167" style="stroke:#E58748;stroke-width:1.0416666666666667;fill:none;" width="15.625" x="1028.125" y="110.9375"/><rect height="2.0833" style="stroke:#E58748;stroke-width:1.0416666666666667;fill:none;" width="4.1667" x="1026.0417" y="113.0208"/><rect height="2.0833" style="stroke:#E58748;stroke-width:1.0416666666666667;fill:none;" width="4.1667" x="1026.0417" y="117.1875"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="14.5833" lengthAdjust="spacing" textLength="89.5833" x="898.9583" y="146.9096">«Accounting»</text><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="14.5833" lengthAdjust="spacing" textLength="118.75" x="898.9583" y="165.2527">Компонент учета</text><!--MD5=[7a3cad549c864300005a10dad21b8996]
+entity FTP3--><ellipse cx="945.8333" cy="315.625" rx="8.3333" ry="8.3333" style="stroke:#D9534F;stroke-width:1.0416666666666667;fill:none;"/><text fill="#4E5D6C" font-family="Bahnschrift, Helvetica" font-size="14.5833" lengthAdjust="spacing" textLength="75" x="908.3333" y="353.6804">Связь с БД</text><!--MD5=[6f79f415f2847134bbfb684f4183adf2]
+entity GoodsDB--><rect height="60.0098" rx="4.1667" ry="4.1667" style="stroke:#E58748;stroke-width:1.0416666666666667;fill:none;" width="138.5417" x="644.2708" y="419.7917"/><rect height="10.4167" style="stroke:#E58748;stroke-width:1.0416666666666667;fill:none;" width="15.625" x="761.9792" y="425"/><rect height="2.0833" style="stroke:#E58748;stroke-width:1.0416666666666667;fill:none;" width="4.1667" x="759.8958" y="427.0833"/><rect height="2.0833" style="stroke:#E58748;stroke-width:1.0416666666666667;fill:none;" width="4.1667" x="759.8958" y="431.25"/><text fill="#000000" font-family="Bahnschrift, Helvetica" font-size="14.5833" lengthAdjust="spacing" textLength="86.4583" x="665.1042" y="460.9721">База данных</text><!--MD5=[17295ecbc946bc1518cd43458bd9b0b9]
+link CreateOrder to FTP1--><path d="M319.7917,193.2917 C319.7917,232.8646 319.7917,285.9479 319.7917,306.2292 " fill="none" id="CreateOrder-FTP1" style="stroke:#DF691A;stroke-width:3.125;stroke-dasharray:7.0,7.0;"/><!--MD5=[fc62adddc1eca42beb3bdd4fb36dfa7b]
+link PayOrder to FTP1--><path d="M178.2813,193.2917 C224.6875,233.0625 286.9896,286.4688 310.3958,306.5208 " fill="none" id="PayOrder-FTP1" style="stroke:#DF691A;stroke-width:3.125;stroke-dasharray:7.0,7.0;"/><!--MD5=[1cf585795e188e84cf3c2305d4cb4be4]
+link CreateOrder to OrderData1--><path d="M264.4271,193.2917 C220.5625,230.8854 162.4792,280.6667 136.5,302.9479 " fill="none" id="CreateOrder-to-OrderData1" style="stroke:#DF691A;stroke-width:3.125;"/><polygon fill="#DF691A" points="132.3125,306.5208,142.1422,303.5832,136.267,303.1313,136.7189,297.2561,132.3125,306.5208" style="stroke:#DF691A;stroke-width:3.125;"/><!--MD5=[a835f6b6f0be78c9fd96d564d7d97d10]
+link PayOrder to OrderData1--><path d="M110.8333,193.2917 C108.2917,229.9271 109.7917,278.1458 115.3229,301.1875 " fill="none" id="PayOrder-to-OrderData1" style="stroke:#DF691A;stroke-width:3.125;"/><polygon fill="#DF691A" points="116.7292,306.2292,118.2238,296.0794,115.3298,301.2123,110.1969,298.3184,116.7292,306.2292" style="stroke:#DF691A;stroke-width:3.125;"/><!--MD5=[d91f85edbe8f6c00d4892af6cd48de1c]
+reverse link PayOrder to OrderData1--><path d="M136.0833,198.9375 C138.4063,237.7708 136.2083,286.8958 129.4688,306.2292 " fill="none" id="PayOrder-backto-OrderData1" style="stroke:#DF691A;stroke-width:3.125;"/><polygon fill="#DF691A" points="135.7083,193.2917,132.1654,202.9197,136.0499,198.4888,140.4808,202.3733,135.7083,193.2917" style="stroke:#DF691A;stroke-width:3.125;"/><!--MD5=[421d3a79a0f3d46e678e1ae61f945af8]
+link EditGoods to FTP2--><path d="M728.1667,211.5625 C723.0208,247.8333 717.1771,288.9583 714.7292,306.2396 " fill="none" id="EditGoods-FTP2" style="stroke:#DF691A;stroke-width:3.125;stroke-dasharray:7.0,7.0;"/><!--MD5=[e5530bd4e87f38f893f55e825119a76a]
+link OrderGoods to FTP2--><path d="M597.9896,202.4896 C637.2813,240.6042 685.3125,287.1979 704.75,306.0521 " fill="none" id="OrderGoods-FTP2" style="stroke:#DF691A;stroke-width:3.125;stroke-dasharray:7.0,7.0;"/><!--MD5=[2218ec1570e7038f6b552f17664aee29]
+link OrderGoods to OrderData2--><path d="M539.5833,202.4896 C539.5833,237.3229 539.5833,279.25 539.5833,300.6042 " fill="none" id="OrderGoods-to-OrderData2" style="stroke:#DF691A;stroke-width:3.125;"/><polygon fill="#DF691A" points="539.5833,306.0521,543.75,296.6771,539.5833,300.8438,535.4167,296.6771,539.5833,306.0521" style="stroke:#DF691A;stroke-width:3.125;"/><!--MD5=[3d9dea3086ae3429d4fd3578e95713ca]
+link Accounting to FTP3--><path d="M959.5208,184.125 C955.3229,224.1875 949.0208,284.25 946.7188,306.1875 " fill="none" id="Accounting-FTP3" style="stroke:#DF691A;stroke-width:3.125;stroke-dasharray:7.0,7.0;"/><!--MD5=[490c2989a315fb1246d100dbd0df5521]
+link FTP1 to GoodsDB--><path d="M329.3646,322.7917 C349.6875,335.5417 398.9375,365.1875 443.75,382.2917 C509.8958,407.5417 588.8646,425.75 644.2188,436.6875 " fill="none" id="FTP1-GoodsDB" style="stroke:#DF691A;stroke-width:3.125;stroke-dasharray:7.0,7.0;"/><!--MD5=[bebcd7f81d126d4fc6e1bef9c42e1302]
+link FTP2 to GoodsDB--><path d="M713.5417,325.3438 C713.5417,344.1458 713.5417,389.3542 713.5417,419.5729 " fill="none" id="FTP2-GoodsDB" style="stroke:#DF691A;stroke-width:3.125;stroke-dasharray:7.0,7.0;"/><!--MD5=[f8c1cc4d7732f9e2fc0307ae8c2f8b58]
+link FTP3 to GoodsDB--><path d="M936.2604,322.6042 C917.3438,334.2917 873.7708,360.9896 836.4583,382.2917 C814.4271,394.8646 789.8958,408.2813 768.5833,419.7604 " fill="none" id="FTP3-GoodsDB" style="stroke:#DF691A;stroke-width:3.125;stroke-dasharray:7.0,7.0;"/><!--MD5=[62a06897ed4eecd22ae6863882071dee]
+@startuml pr7-component-diagram
+!theme superhero-outline
+
+skinparam BackgroundColor white
+
+!$font = "Bahnschrift, Helvetica"
+skinparam DefaultFontName $font
+skinparam StateFontName $font
+skinparam ArrowFontName $font
+skinparam DefaultFontColor black
+skinparam ComponentFontColor black
+
+node "Продажа" as Selling {
+    component CreateOrder [
+        <<CreateOrder>>
+        Компонент для
+        создания заказа
+    ]
+    component PayOrder [
+        <<PayOrder>>
+        Компонент для
+        оплаты заказа
+    ]
+    interface "Данные заказа" as OrderData1
+    interface "Связь с БД" as FTP1
+}
+
+node "Управление" as Control {
+    component EditGoods [
+        <<EditGoods>>
+        Компонент для
+        редактирования
+        информации
+        о товарах
+    ]
+    component OrderGoods [
+        <<OrderGoods>>
+        Компонент для
+        заказа товаров
+        у поставщиков
+    ]
+    interface "Данные заказа" as OrderData2
+    interface "Связь с БД" as FTP2
+}
+
+node "Учет" as AccountingNode {
+    component Accounting [
+        <<Accounting>>
+        Компонент учета
+    ]
+    interface "Связь с БД" as FTP3
+}
+
+[База данных] as GoodsDB
+
+CreateOrder .. FTP1
+PayOrder .. FTP1
+
+CreateOrder - -> OrderData1
+PayOrder - -> OrderData1
+PayOrder <- - OrderData1
+
+EditGoods .. FTP2
+OrderGoods .. FTP2
+OrderGoods - -> OrderData2
+
+Accounting .. FTP3
+
+FTP1 .. GoodsDB
+FTP2 .. GoodsDB
+FTP3 .. GoodsDB
+@enduml
+
+@startuml pr7-component-diagram
+
+
+
+skinparam backgroundColor transparent
+skinparam useBetaStyle false
+
+
+
+
+
+
+<style>
+  root {
+    BackgroundColor transparent
+    FontColor #DF691A
+    HyperLinkColor #f0ad4e
+    LineColor #e58748
+    LineThickness 1
+    Margin 10
+    Padding 6
+    Shadowing 0.0
+  }
+  node {
+   Padding 15
+   roundcorner 20
+   BackgroundColor transparent
+  }
+  caption {
+    LineThickness 0
+  }
+  footer {
+    LineThickness 0
+  }
+  groupHeader {
+    BackgroundColor #4E5D6C
+    FontColor #5bc0de
+    FontStyle bold
+  }
+  header {
+    LineThickness 0
+  }
+  referenceHeader {
+    BackgroundColor transparent
+    FontColor #4E5D6C
+    FontStyle bold
+  }
+  separator {
+    BackgroundColor #FFF
+    FontColor transparent
+    FontStyle bold
+  }
+  title {
+	FontSize 20
+	BorderRoundCorner            8
+	BorderThickness 	         1
+	BackgroundColor  transparent
+	FontColor #DF691A
+	BorderColor #4E5D6C
+  }
+  nwdiagDiagram {
+	network {
+			FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent    
+		LineColor #DF691A
+		LineThickness 1.0
+		FontColor #b25415
+	}
+	server {
+			FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+	}
+	arrow {
+		FontColor #b25415
+		LineColor #b25415
+	}
+	group {
+		BackGroundColor #abb6c2
+		LineColor #bcc5ce
+		LineThickness 2.0
+		Margin 5
+		Padding 5
+	}
+  }
+  ganttDiagram {
+	task {
+			FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+		LineColor #DF691A
+		Margin 10
+		Padding 6
+	}
+	note {
+		FontColor #5bc0de
+		LineColor #7ccde5
+		BackGroundColor transparent
+	}
+	separator {
+		LineColor #717d89
+		BackGroundColor transparent
+		FontColor #717d89
+	}
+	milestone {
+		FontColor #5bc0de
+		FontSize 16
+		FontStyle italic
+		BackGroundColor #4E5D6C
+		LineColor #717d89
+	}
+	timeline {
+		BackgroundColor #4E5D6C
+		FontColor #717d89
+	}
+	closed {
+		BackgroundColor #f3bd71
+		FontColor #f0ad4e
+	}
+  }
+</style>
+skinparam defaultFontName       "Verdana"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           8
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               5
+skinparam TitleFontColor	    #4E5D6C
+skinparam TitleFontSize	    	20
+skinparam TitleBorderThickness 	0
+skinparam ArrowColor            #4E5D6C
+skinparam stereotype {
+    CBackgroundColor #717d89
+    CBorderColor #3e4a56
+    ABackgroundColor #5F8F00
+    ABorderColor #4a934a
+    IBackgroundColor #AE423F
+    IBorderColor #e17572
+    EBackgroundColor #C08A3E
+    EBorderColor #f3bd71
+    NBackgroundColor #499AB2
+    NBorderColor #7ccde5
+}
+skinparam title {
+	FontColor	                 #DF691A
+	BorderColor	                 #717d89
+	FontSize	    	         20
+	BorderRoundCorner            8
+	BorderThickness 	         1
+	BackgroundColor              transparent
+}
+
+
+skinparam legend {
+	BackgroundColor transparent
+	BorderColor #717d89
+	FontColor #abb6c2
+}
+
+skinparam swimlane {
+	BorderColor #5bc0de
+	BorderThickness 2
+	TitleBackgroundColor  #3e4a56-#4E5D6C
+	TitleFontColor #DF691A
+}
+
+
+skinparam activity {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+	BarColor #5cb85c
+	StartColor #5bc0de
+	EndColor #5bc0de
+	DiamondBackgroundColor transparent
+  	DiamondBorderColor #717d89
+  	DiamondFontColor #717d89
+}
+
+
+skinparam participant {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+	FontColor #DF691A
+}
+
+
+skinparam arrow {
+	Thickness 3
+	Color #DF691A
+	FontColor #FFF
+}
+
+
+skinparam sequence {
+	BorderColor #DF691A
+	TitleFontColor #DF691A
+	BackgroundColor transparent
+	StartColor #DF691A
+	EndColor #DF691A
+	BoxBackgroundColor transparent
+	BoxBorderColor #4E5D6C
+	BoxFontColor #4E5D6C
+	DelayFontColor #4E5D6C
+	LifeLineBorderColor #4E5D6C
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor transparent
+	GroupBorderColor #4E5D6C
+	GroupFontColor #4E5D6C
+	GroupHeaderFontColor #5bc0de
+	GroupBackgroundColor transparent
+	GroupHeaderBackgroundColor transparent
+	DividerBackgroundColor transparent
+    DividerBorderColor #4E5D6C
+    DividerBorderThickness 2
+    DividerFontColor #abb6c2
+	ReferenceBackgroundColor transparent
+	ReferenceBorderColor #abb6c2
+	ReferenceFontColor #abb6c2
+	ReferenceHeaderFontColor #5bc0de
+	ReferenceHeaderBackgroundColor transparent
+	StereotypeFontColor #DF691A
+}
+
+
+skinparam partition {
+	BorderColor #DF691A
+	FontColor #DF691A
+	BackgroundColor transparent
+}
+
+
+skinparam collections {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+}
+
+
+skinparam control {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+}
+
+
+skinparam entity {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+}
+
+
+skinparam boundary {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+}
+
+
+skinparam agent {
+	BackgroundColor transparent
+	BorderColor #C08A3E
+	FontColor #4E5D6C
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor transparent
+	BorderColor #7ccde5
+	FontColor #7ccde5
+}
+
+
+skinparam artifact {
+	BackgroundColor transparent
+	BorderColor #717d89
+	FontColor #abb6c2
+}
+
+
+skinparam component {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+}
+
+
+skinparam interface {
+	BackgroundColor  transparent
+	BorderColor  #d9534f
+	FontColor #4E5D6C
+}
+
+
+skinparam storage {
+	BackgroundColor transparent
+  	BorderColor #f3bd71
+	FontColor #f0ad4e
+}
+
+
+skinparam node {
+	BackgroundColor  transparent
+	BorderColor #abb6c2
+	FontColor #abb6c2
+}
+
+
+skinparam cloud {
+	BackgroundColor transparent
+	BorderColor #F2FCFE
+	FontColor #4E5D6C
+}
+
+
+skinparam database {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+	FontColor #DF691A
+}
+
+
+skinparam class {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+	FontColor #abb6c2
+	HeaderBackgroundColor #b25415
+	StereotypeFontColor #4E5D6C
+	BorderThickness 1
+	AttributeFontColor #4E5D6C
+	AttributeFontSize 11
+}
+
+
+skinparam object {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+	StereotypeFontColor #4E5D6C
+	BorderThickness 1
+	AttributeFontColor #717d89
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+	BorderThickness 2
+	StereotypeFontColor #DF691A
+}
+
+
+skinparam rectangle {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+	BorderThickness 2
+	StereotypeFontColor #DF691A
+}
+
+
+skinparam package {
+	BackgroundColor transparent
+  	BorderColor #DF691A
+	FontColor #DF691A
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor transparent
+  	BorderColor #f0ad4e
+	FontColor #f0ad4e
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor transparent
+  	BorderColor #5bc0de
+	FontColor #5bc0de
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+	StartColor #5bc0de
+	EndColor #5bc0de
+	AttributeFontColor #717d89
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+}
+
+
+skinparam card {
+	BackgroundColor transparent
+	BorderColor #5bc0de
+	FontColor #5bc0de
+}
+
+
+skinparam file {
+	BackgroundColor transparent
+	BorderColor #abb6c2
+	FontColor #abb6c2
+}
+
+
+skinparam stack {
+		FontColor #DF691A
+	BorderColor #e58748
+	BackgroundColor transparent
+}
+
+skinparam BackgroundColor white
+
+skinparam DefaultFontName Bahnschrift, Helvetica
+skinparam StateFontName Bahnschrift, Helvetica
+skinparam ArrowFontName Bahnschrift, Helvetica
+skinparam DefaultFontColor black
+skinparam ComponentFontColor black
+
+node "Продажа" as Selling {
+    component CreateOrder [
+        <<CreateOrder>>
+        Компонент для
+        создания заказа
+    ]
+    component PayOrder [
+        <<PayOrder>>
+        Компонент для
+        оплаты заказа
+    ]
+    interface "Данные заказа" as OrderData1
+    interface "Связь с БД" as FTP1
+}
+
+node "Управление" as Control {
+    component EditGoods [
+        <<EditGoods>>
+        Компонент для
+        редактирования
+        информации
+        о товарах
+    ]
+    component OrderGoods [
+        <<OrderGoods>>
+        Компонент для
+        заказа товаров
+        у поставщиков
+    ]
+    interface "Данные заказа" as OrderData2
+    interface "Связь с БД" as FTP2
+}
+
+node "Учет" as AccountingNode {
+    component Accounting [
+        <<Accounting>>
+        Компонент учета
+    ]
+    interface "Связь с БД" as FTP3
+}
+
+[База данных] as GoodsDB
+
+CreateOrder .. FTP1
+PayOrder .. FTP1
+
+CreateOrder - -> OrderData1
+PayOrder - -> OrderData1
+PayOrder <- - OrderData1
+
+EditGoods .. FTP2
+OrderGoods .. FTP2
+OrderGoods - -> OrderData2
+
+Accounting .. FTP3
+
+FTP1 .. GoodsDB
+FTP2 .. GoodsDB
+FTP3 .. GoodsDB
+@enduml
+
+PlantUML version 1.2022.0(Tue Jan 11 19:16:42 MSK 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1251
+Language: ru
+Country: RU
+--></g></svg>

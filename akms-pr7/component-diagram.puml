@@ -1,0 +1,72 @@
+@startuml pr7-component-diagram
+!theme superhero-outline
+
+skinparam BackgroundColor white
+
+!$font = "Bahnschrift, Helvetica"
+skinparam DefaultFontName $font
+skinparam StateFontName $font
+skinparam ArrowFontName $font
+skinparam DefaultFontColor black
+skinparam ComponentFontColor black
+
+node "Продажа" as Selling {
+    component CreateOrder [
+        <<CreateOrder>>
+        Компонент для
+        создания заказа
+    ]
+    component PayOrder [
+        <<PayOrder>>
+        Компонент для
+        оплаты заказа
+    ]
+    interface "Данные заказа" as OrderData1
+    interface "Связь с БД" as FTP1
+}
+
+node "Управление" as Control {
+    component EditGoods [
+        <<EditGoods>>
+        Компонент для
+        редактирования
+        информации
+        о товарах
+    ]
+    component OrderGoods [
+        <<OrderGoods>>
+        Компонент для
+        заказа товаров
+        у поставщиков
+    ]
+    interface "Данные заказа" as OrderData2
+    interface "Связь с БД" as FTP2
+}
+
+node "Учет" as AccountingNode {
+    component Accounting [
+        <<Accounting>>
+        Компонент учета
+    ]
+    interface "Связь с БД" as FTP3
+}
+
+[База данных] as GoodsDB
+
+CreateOrder .. FTP1
+PayOrder .. FTP1
+
+CreateOrder --> OrderData1
+PayOrder --> OrderData1
+PayOrder <-- OrderData1
+
+EditGoods .. FTP2
+OrderGoods .. FTP2
+OrderGoods --> OrderData2
+
+Accounting .. FTP3
+
+FTP1 .. GoodsDB
+FTP2 .. GoodsDB
+FTP3 .. GoodsDB
+@enduml
